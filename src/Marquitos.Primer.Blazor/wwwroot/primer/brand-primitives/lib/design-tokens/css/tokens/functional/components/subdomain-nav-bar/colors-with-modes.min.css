@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/subdomain-nav-bar/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-SubdomainNavBar-canvas-default:#ffffff80;--brand-SubdomainNavBar-canvas-search:var(--base-color-scale-white-0);--brand-SubdomainNavBar-canvas-overflow-default:var(--base-color-scale-white-0);--brand-SubdomainNavBar-canvas-overflow-hover:var(--base-color-scale-gray-0);--brand-SubdomainNavBar-fg-overflow-default:var(--brand-color-text-default);--brand-SubdomainNavBar-border-nav-default:var(--base-color-scale-gray-9);--brand-SubdomainNavBar-border-nav-pressed:var(--base-color-scale-black-0);--brand-SubdomainNavBar-border-button-hover:var(--base-color-scale-black-0)}[data-color-mode=dark]{--brand-SubdomainNavBar-canvas-default:#0d111780;--brand-SubdomainNavBar-canvas-search:var(--base-color-scale-black-0);--brand-SubdomainNavBar-canvas-overflow-default:var(--base-color-scale-white-0);--brand-SubdomainNavBar-canvas-overflow-hover:var(--base-color-scale-gray-0);--brand-SubdomainNavBar-fg-overflow-default:var(--brand-color-text-onEmphasis);--brand-SubdomainNavBar-border-nav-default:var(--base-color-scale-gray-3);--brand-SubdomainNavBar-border-nav-pressed:var(--base-color-scale-white-0);--brand-SubdomainNavBar-border-button-hover:var(--base-color-scale-white-0)}
+/*# sourceMappingURL=/sm/f17a48e1ff01c6e739994d73ca3a3f8b425c651fb78a10e866d9ffe69fb73932.map */

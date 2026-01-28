@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-css@0.63.0/components/animation/TextRevealAnimation/TextRevealAnimation.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+@keyframes wipe{from{transform:scaleX(1)}to{transform:scaleX(0)}}.TextRevealAnimation{opacity:0;transition:opacity var(--brand-animation-duration-default) var(--brand-animation-easing-default)}.TextRevealAnimation--visible{opacity:1}.TextRevealAnimation,.TextRevealAnimation--animated{width:100%;min-height:1lh;position:relative}.TextRevealAnimation--animated::after{content:'';display:inline;position:absolute;top:0;right:0;width:100%;height:100%;background-color:var(--brand-color-accent-primary);transform-origin:right;animation:wipe var(--brand-animation-duration-extended) forwards var(--brand-animation-easing-default);animation-delay:var(--animation-delay)}@media (prefers-reduced-motion:reduce){.TextRevealAnimation--animated::after{display:none}.TextRevealAnimation,.TextRevealAnimation *,.TextRevealAnimation::after,.TextRevealAnimation::before{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/*# sourceMappingURL=/sm/7adfcd8eace3361c2d4dd93c653f8ac2ae61db4af6adee42f64c8c5a53dfaaad.map */

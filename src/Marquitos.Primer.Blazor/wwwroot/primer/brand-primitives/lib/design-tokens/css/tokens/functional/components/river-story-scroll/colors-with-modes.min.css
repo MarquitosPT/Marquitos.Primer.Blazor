@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/river-story-scroll/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-RiverStoryScroll-pagination-fgColor:var(--base-color-scale-gray-6);--brand-RiverStoryScroll-content-inactive-bgColor:var(--brand-color-canvas-default)}[data-color-mode=dark]{--brand-RiverStoryScroll-pagination-fgColor:var(--base-color-scale-white-0);--brand-RiverStoryScroll-content-inactive-bgColor:var(--brand-color-canvas-default)}
+/*# sourceMappingURL=/sm/7664213db8fa5af21f721c3d01cf597d2a5e1563f0e54e5a693d04805233ec7b.map */

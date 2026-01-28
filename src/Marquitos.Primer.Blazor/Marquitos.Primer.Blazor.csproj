@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+        <Product>Marquitos Primer Blazor Components</Product>
+        <Description>Blazor components inspired by GitHub's Primer Brand UI design system.</Description>
+        <Company>MarquitosPT</Company>
+	</PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Marquitos.Primer.Blazor</PackageId>
+        <PackageTags>blazor;primer;github;brand-ui;components;ui-framework</PackageTags>
+        <RepositoryUrl>https://github.com/MarquitosPT/Marquitos.Primer.Blazor</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <RepositoryType>git</RepositoryType>
+        <PackageProjectUrl>https://github.com/MarquitosPT/Marquitos.Primer.Blazor</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>icon.png</PackageIcon> 
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        
+        <Authors>Marcos Gomes</Authors>
+        <Copyright>Copyright © 2026 by MarquitosPT</Copyright>
+        <Owners>MarquitosPT</Owners>
+        <Title>Marquitos Primer Blazor Components</Title>
+
+        <IncludePackageReadmeFile>true</IncludePackageReadmeFile>
+        <IncludeSymbols>True</IncludeSymbols>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <!--  Visual Studio Command Line:   sn -k MarquitosPT.snk -->
+        <!--  Visual Studio Command Line:   sn -p MarquitosPT.snk MarquitosPT.PublicKey-->
+        <AssemblyOriginatorKeyFile>../../tools/MarquitosPT.snk</AssemblyOriginatorKeyFile>
+        <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+        <SignAssembly>true</SignAssembly>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GenerateAssemblyTitleAttribute>true</GenerateAssemblyTitleAttribute>
+        <GenerateAssemblyDescriptionAttribute>true</GenerateAssemblyDescriptionAttribute>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="10.0.2" />
+	</ItemGroup>
+
+</Project>

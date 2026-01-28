@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/action-menu/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-ActionMenu-color-item-hover:var(--base-color-scale-gray-1);--brand-ActionMenu-color-scrollbar-thumb-bg:var(--base-color-scale-gray-0)}[data-color-mode=dark]{--brand-ActionMenu-color-item-hover:var(--base-color-scale-gray-6);--brand-ActionMenu-color-scrollbar-thumb-bg:var(--base-color-scale-gray-3)}
+/*# sourceMappingURL=/sm/43d91f78c343806989fe0ee0345199ec4aa28ca0e7e469da75e117ba24a8d4ca.map */

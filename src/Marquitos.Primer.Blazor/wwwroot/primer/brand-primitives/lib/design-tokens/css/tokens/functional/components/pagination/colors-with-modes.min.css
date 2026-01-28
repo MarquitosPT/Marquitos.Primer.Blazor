@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/pagination/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-pagination-link-bgColor-rest:var(--base-color-scale-black-0);--brand-pagination-link-bgColor-active:var(--base-color-scale-black-0);--brand-pagination-borderColor-hover:var(--base-color-scale-black-0)}[data-color-mode=dark]{--brand-pagination-link-bgColor-rest:var(--base-color-scale-white-0);--brand-pagination-link-bgColor-active:var(--base-color-scale-white-0);--brand-pagination-borderColor-hover:var(--base-color-scale-white-0)}
+/*# sourceMappingURL=/sm/446229909183e344fcc2fabbe8fb92b3fd2a36649ac05e2915ecf114d9c9fcb6.map */

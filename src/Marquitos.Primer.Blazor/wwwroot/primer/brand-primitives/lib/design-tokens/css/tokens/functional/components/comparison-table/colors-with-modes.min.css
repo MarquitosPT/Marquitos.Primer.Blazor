@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/comparison-table/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-ComparisonTable-featured-color-start:var(--base-color-scale-pink-4);--brand-ComparisonTable-featured-color-end:var(--base-color-scale-indigo-5)}[data-color-mode=dark]{--brand-ComparisonTable-featured-color-start:var(--base-color-scale-pink-2);--brand-ComparisonTable-featured-color-end:var(--base-color-scale-indigo-3)}
+/*# sourceMappingURL=/sm/ea20f329cfcca0f89f5cb8ed2be346ddd7c04039efdec0c70af6b6d962b3244d.map */

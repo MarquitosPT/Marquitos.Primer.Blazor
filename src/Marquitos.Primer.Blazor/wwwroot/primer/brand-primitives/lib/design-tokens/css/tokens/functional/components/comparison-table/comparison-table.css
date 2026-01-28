@@ -1,0 +1,26 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ */
+
+:root {
+  --brand-ComparisonTable-heading-marginBottom: var(--base-size-8);
+}
+
+@media (min-width: 544px) {
+  :root {
+    --brand-ComparisonTable-heading-marginBottom: var(--base-size-40);
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --brand-ComparisonTable-heading-marginBottom: var(--base-size-64);
+  }
+}
+
+@media (min-width: 1012px) {
+  :root {
+    --brand-ComparisonTable-heading-marginBottom: var(--base-size-96);
+  }
+}

@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/tabs/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-Tabs-item-accent-bgColor-rest:var(--base-color-scale-green-5);--brand-Tabs-item-accent-fgColor-rest:var(--base-color-scale-white-0);--brand-Tabs-item-default-bgColor-active:linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(153, 153, 153, 0.12) 100%);--brand-Tabs-item-default-borderColor-active:var(--brand-color-border-default);--brand-Tabs-item-underline-rest:var(--base-color-scale-black-0);--brand-Tabs-list-borderWidth-active:var(--brand-borderWidth-thin)}[data-color-mode=dark]{--brand-Tabs-item-accent-bgColor-rest:var(--base-color-scale-green-5);--brand-Tabs-item-accent-fgColor-rest:var(--base-color-scale-white-0);--brand-Tabs-item-default-bgColor-active:linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(153, 153, 153, 0.12) 100%);--brand-Tabs-item-default-borderColor-active:var(--base-color-scale-white-0);--brand-Tabs-item-underline-rest:var(--base-color-scale-white-0);--brand-Tabs-list-borderWidth-active:var(--brand-borderWidth-thick)}
+/*# sourceMappingURL=/sm/23752bdb6da436af3067b20f97c864906f5da6f59dfefc515f8f07a7a19d0990.map */

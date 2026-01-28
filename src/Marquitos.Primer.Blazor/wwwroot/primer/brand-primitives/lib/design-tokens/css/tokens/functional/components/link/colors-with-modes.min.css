@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/link/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-Link-color-default:var(--brand-color-text-default);--brand-Link-color-accent:var(--base-color-scale-blue-6)}[data-color-mode=dark]{--brand-Link-color-default:var(--brand-color-text-default);--brand-Link-color-accent:var(--base-color-scale-blue-2)}
+/*# sourceMappingURL=/sm/dbc5026dd26450d9055a2147b71c9671b941d38ce1c96dfc367c5575e7646772.map */

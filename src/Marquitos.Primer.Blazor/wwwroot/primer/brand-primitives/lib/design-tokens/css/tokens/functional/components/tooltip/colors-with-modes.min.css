@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/tooltip/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-Tooltip-color-default:var(--brand-color-text-onEmphasis)}[data-color-mode=dark]{--brand-Tooltip-color-default:var(--brand-color-text-default)}
+/*# sourceMappingURL=/sm/be2c9a5a956428b0d420d3968d60b78c4bc215f5f89073f4202e71352ad989e2.map */

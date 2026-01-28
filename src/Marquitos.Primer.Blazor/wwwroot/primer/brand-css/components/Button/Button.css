@@ -1,0 +1,264 @@
+.Button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow var(--brand-animation-duration-faster);
+  text-decoration: none;
+  border-radius: var(--brand-borderRadius-medium);
+  cursor: pointer;
+  border: solid var(--brand-borderWidth-thick) transparent;
+  background: none;
+  display: inline-flex;
+  gap: var(--brand-control-medium-gap);
+}
+
+.Button:hover {
+  text-decoration: none;
+}
+
+.Button:focus-visible {
+  transition: none;
+  outline: 4px solid var(--brand-color-focus);
+  outline-offset: 2px;
+}
+
+.Button--disabled,
+.Button--disabled:hover,
+.Button--disabled:focus {
+  cursor: not-allowed;
+}
+
+.Button__text {
+  position: relative;
+}
+
+.Button__icon-visual {
+  display: flex;
+  align-self: center;
+  height: var(--base-size-16);
+  width: auto;
+  fill: currentcolor;
+}
+
+.Button__trailing-visual,
+.Button__leading-visual {
+  display: flex;
+}
+
+/* optically adjust arrow to align with the end (right) padding */
+/* reduce gap between label and arrow */
+.Button-arrow {
+  margin-inline-end: calc(var(--base-size-4) * -1);
+  margin-inline-start: calc(var(--base-size-8) * -1);
+}
+
+/* primary */
+
+.Button--primary {
+  color: var(--brand-button-primary-fgColor-rest);
+  background-color: var(--brand-button-primary-bgColor-rest);
+  border: solid var(--brand-borderWidth-thin) var(--brand-button-primary-borderColor-rest);
+}
+
+.Button--primary:not(.Button[disabled], .Button[aria-disabled='true'], [aria-expanded='true']):hover {
+  background-color: var(--brand-button-primary-bgColor-hover);
+  border-color: var(--brand-button-primary-borderColor-hover);
+}
+
+.Button--primary:not(.Button[disabled], .Button[aria-disabled='true']):active,
+.Button--primary[aria-expanded='true'] {
+  background-color: var(--brand-button-primary-bgColor-active);
+  border-color: var(--brand-button-primary-borderColor-active);
+  box-shadow: var(--brand-button-primary-shadow-active);
+}
+
+.Button--label-primary {
+  color: var(--brand-button-primary-fgColor-rest);
+}
+
+.Button--primary:disabled,
+.Button--primary[aria-disabled='true'],
+.Button--primary.Button--disabled {
+  background-color: var(--brand-button-primary-bgColor-disabled);
+  border-color: var(--brand-button-primary-borderColor-disabled);
+}
+
+.Button--primary:disabled .Button-arrow--disabled,
+.Button--primary[aria-disabled='true'] .Button-arrow--disabled,
+.Button--primary.Button--disabled .Button-arrow--disabled,
+.Button--primary:disabled .Button__icon-visual--disabled,
+.Button--primary[aria-disabled='true'] .Button__icon-visual--disabled,
+.Button--primary.Button--disabled .Button__icon-visual--disabled,
+.Button--label-primary.Button-label--disabled {
+  color: var(--brand-button-primary-fgColor-disabled);
+}
+
+/* accent */
+
+.Button--accent {
+  color: var(--brand-button-accent-fgColor-rest);
+  background-color: var(--brand-button-accent-bgColor-rest);
+}
+
+.Button--size-small.Button--accent {
+  border-width: var(--brand-borderWidth-thin);
+}
+
+.Button--accent:not(.Button[disabled], .Button[aria-disabled='true'], [aria-expanded='true']):hover {
+  background: var(--brand-button-accent-bgColor-hover);
+}
+
+.Button--accent:not(.Button[disabled], .Button[aria-disabled='true']):active,
+.Button--accent[aria-expanded='true'] {
+  background-color: var(--brand-button-accent-bgColor-active);
+  border-color: var(--brand-button-accent-borderColor-active);
+}
+
+.Button--label-accent {
+  color: var(--brand-button-accent-fgColor-rest);
+}
+
+.Button--accent:disabled,
+.Button--accent[aria-disabled='true'],
+.Button--accent.Button--disabled {
+  background-color: var(--brand-button-accent-bgColor-disabled);
+}
+
+.Button--accent:disabled .Button-arrow--disabled,
+.Button--accent[aria-disabled='true'] .Button-arrow--disabled,
+.Button--accent.Button--disabled .Button-arrow--disabled,
+.Button--accent:disabled .Button__icon-visual--disabled,
+.Button--accent[aria-disabled='true'] .Button__icon-visual--disabled,
+.Button--accent.Button--disabled .Button__icon-visual--disabled,
+.Button--label-accent.Button-label--disabled {
+  color: var(--brand-button-accent-fgColor-disabled);
+}
+
+/* secondary */
+
+.Button--secondary {
+  transition: background-color, border-color 200ms;
+  border-color: var(--brand-button-secondary-borderColor-rest);
+  color: var(--brand-button-secondary-fgColor-rest);
+}
+
+.Button--secondary:not(.Button[disabled], .Button[aria-disabled='true'], [aria-expanded='true']):hover {
+  border-color: var(--brand-button-secondary-borderColor-hover);
+}
+
+.Button--secondary:not(.Button[disabled], .Button[aria-disabled='true']):active,
+.Button--secondary[aria-expanded='true'] {
+  border-color: var(--brand-button-secondary-borderColor-active);
+}
+
+.Button--secondary:disabled {
+  border-color: var(--brand-button-secondary-fgColor-disabled);
+}
+
+.Button--secondary:disabled .Button-arrow--disabled,
+.Button--secondary[aria-disabled='true'] .Button-arrow--disabled,
+.Button--secondary.Button--disabled .Button-arrow--disabled,
+.Button--secondary:disabled .Button__icon-visual--disabled,
+.Button--secondary[aria-disabled='true'] .Button__icon-visual--disabled,
+.Button--secondary.Button--disabled .Button__icon-visual--disabled,
+.Button--label-secondary.Button-label--disabled {
+  color: var(--brand-button-secondary-fgColor-disabled);
+}
+
+/* subtle */
+
+.Button--subtle {
+  background-color: var(--brand-button-subtle-bgColor-rest);
+  color: var(--brand-color-text-default);
+  transition: background-color, border-color var(--brand-animation-duration-faster);
+}
+
+.Button--subtle:not(.Button[disabled], .Button[aria-disabled='true'], [aria-expanded='true']):hover {
+  background-color: var(--brand-button-subtle-bgColor-hover);
+}
+
+.Button--subtle:not(.Button[disabled], .Button[aria-disabled='true']):active,
+.Button--subtle[aria-expanded='true'] {
+  background-color: var(--brand-button-subtle-bgColor-active);
+  border-color: transparent;
+}
+
+.Button--label-subtle {
+  color: var(--brand-button-subtle-fgColor-rest);
+}
+
+.Button--subtle:disabled .Button-arrow--disabled,
+.Button--subtle[aria-disabled='true'] .Button-arrow--disabled,
+.Button--subtle.Button--disabled .Button-arrow--disabled,
+.Button--subtle:disabled .Button__icon-visual--disabled,
+.Button--subtle[aria-disabled='true'] .Button__icon-visual--disabled,
+.Button--subtle.Button--disabled .Button__icon-visual--disabled,
+.Button--label-subtle.Button-label--disabled {
+  color: var(--brand-button-subtle-fgColor-disabled);
+}
+
+/* size */
+
+.Button--size-small {
+  min-height: var(--brand-control-small-size);
+  padding-inline: var(--brand-control-small-paddingInline-normal);
+}
+
+.Button--size-medium {
+  min-height: var(--brand-control-medium-size);
+  padding: var(--brand-control-medium-paddingBlock-condensed) var(--brand-control-medium-paddingInline-spacious);
+}
+
+.Button--size-large {
+  min-height: var(--brand-control-large-size);
+  padding: var(--brand-control-large-paddingBlock-condensed) var(--brand-control-large-paddingInline-spacious);
+}
+
+.Button--size-large .Button__icon-visual,
+.Button--size-large .Button-arrow {
+  height: var(--base-size-20);
+  width: var(--base-size-20);
+}
+
+.Button--label-medium {
+  font-size: var(--brand-text-subhead-size-medium);
+  line-height: var(--brand-text-subhead-lineHeight-medium);
+}
+
+.Button--label-large {
+  font-size: var(--brand-text-subhead-size-large);
+  line-height: var(--brand-text-subhead-lineHeight-large);
+}
+
+.Button--block {
+  width: 100%;
+}
+
+@media (forced-colors: active) {
+  .Button--disabled {
+    outline-color: GrayText;
+  }
+
+  /* Indicates disabled state in WHCM */
+  .Button--label.Button-label--disabled {
+    color: GrayText;
+  }
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  .Button,
+  .Button::before,
+  .Button::after,
+  .Button * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

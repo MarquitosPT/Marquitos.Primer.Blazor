@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/pricing-options/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-PricingOptions-borderMask:linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));--brand-PricingOptions-item-bgColor-solid:var(--brand-color-canvas-subtle);--brand-PricingOptions-item-bgColor-gradient-start:var(--brand-color-canvas-subtle);--brand-PricingOptions-item-bgColor-gradient-end:var(--brand-color-canvas-default);--brand-PricingOptions-featureList-group-heading-color:var(--brand-color-text-default)}[data-color-mode=dark]{--brand-PricingOptions-borderMask:linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));--brand-PricingOptions-item-bgColor-solid:var(--brand-color-canvas-subtle);--brand-PricingOptions-item-bgColor-gradient-start:var(--brand-color-canvas-subtle);--brand-PricingOptions-item-bgColor-gradient-end:var(--brand-color-canvas-default);--brand-PricingOptions-featureList-group-heading-color:var(--brand-color-text-default)}
+/*# sourceMappingURL=/sm/531fc9d3ce2108969c4f77feb341e624773a60d50e6285abe0c29257c0b31226.map */

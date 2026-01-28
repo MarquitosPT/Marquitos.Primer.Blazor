@@ -1,0 +1,32 @@
+@page "/"
+@using Marquitos.Primer.Blazor.Services
+
+<PageTitle>Home</PageTitle>
+
+<h1>Marquitos Primer Blazor Components</h1>
+
+<h3>Blazor components inspired by GitHub's Primer Brand UI design system.</h3>
+
+<Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+    <p>This is an Box example.</p>
+    <p>You can choose from light or dark theme pressing the following buttons.</p>
+    <button type="button" class="btn" @onclick="ButtonLightClick">Light Theme</button>
+    <button type="button" class="btn" @onclick="ButtonDarkClick">Dark Theme</button>
+</Box>
+
+
+@code{
+
+    [Inject]
+    private ThemeService ThemeService { get; set; } = default!;
+
+    private async Task ButtonLightClick(MouseEventArgs args)
+    {
+        await ThemeService.SetThemeAsync(ThemeColor.Light);
+    }
+
+    private async Task ButtonDarkClick(MouseEventArgs args)
+    {
+        await ThemeService.SetThemeAsync(ThemeColor.Dark);
+    }
+}

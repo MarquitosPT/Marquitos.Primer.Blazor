@@ -1,0 +1,472 @@
+/* ---------------------------------------------------------- */
+/* Container                                               */
+/* ---------------------------------------------------------- */
+
+.PricingOptions {
+  --brand-pricing-options-item-gap: var(--brand-PricingOptions-items-gap);
+  --brand-pricing-options-container-padding-inline: 0;
+
+  /* prettier-ignore */
+  --brand-pricing-options-template-areas: 
+    'leadingComponent'
+    'header'
+    'description'
+    'price'
+    'actions'
+    'feature-list'
+    'footnote'
+    ;
+
+  display: grid;
+  row-gap: var(--brand-pricing-options-item-gap, 0);
+  padding-inline: var(--brand-pricing-options-container-padding-inline);
+}
+
+@media screen and (max-width: 63.24rem) {
+  .PricingOptions {
+    margin-inline: auto;
+    max-width: 488px;
+  }
+}
+
+@media (min-width: 63.25rem) {
+  .PricingOptions {
+    grid-template-areas: var(--brand-pricing-options-template-areas);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    -moz-column-gap: var(--brand-pricing-options-item-gap, 0);
+         column-gap: var(--brand-pricing-options-item-gap, 0);
+    row-gap: 0;
+  }
+}
+
+/* ---------------------------------------------------------- */
+/* Layout: default                                         */
+/* ---------------------------------------------------------- */
+
+.PricingOptions--layout-default {
+  position: relative;
+  border-radius: var(--brand-borderRadius-xlarge);
+}
+
+.PricingOptions--layout-default.PricingOptions--appearance-solid {
+  border: solid 1px var(--brand-color-border-default);
+  background-color: var(--brand-PricingOptions-item-bgColor-solid);
+}
+
+.PricingOptions--layout-default.PricingOptions--appearance-gradient,
+.PricingOptions--layout-cards.PricingOptions--appearance-gradient .PricingOptions__item {
+  background: linear-gradient(
+    180deg,
+    var(--brand-PricingOptions-item-bgColor-gradient-start) 0%,
+    var(--brand-PricingOptions-item-bgColor-gradient-end) 100%
+  );
+}
+
+.PricingOptions--layout-default.PricingOptions--appearance-gradient::before,
+.PricingOptions--layout-cards.PricingOptions--appearance-gradient .PricingOptions__item::before {
+  position: absolute;
+  content: '';
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  -webkit-mask-image: var(--brand-PricingOptions-borderMask);
+          mask-image: var(--brand-PricingOptions-borderMask);
+  border: var(--brand-borderWidth-thin) solid var(--brand-color-border-default);
+}
+
+@media (min-width: 63.25rem) {
+  .PricingOptions--layout-default {
+    padding-inline: var(--brand-pricing-options-container-padding-inline);
+  }
+}
+
+.PricingOptions--layout-default .PricingOptions__item {
+  position: relative; /* Used for positioning the divider between items */
+  padding-inline: var(--base-size-24);
+  padding-block: var(--base-size-20);
+}
+
+@media (min-width: 63.25rem) {
+  .PricingOptions--layout-default .PricingOptions__item {
+    padding-inline: 0;
+    padding-block: var(--base-size-40);
+  }
+}
+
+/* Horizontal divider between items on small viewports */
+.PricingOptions--layout-default .PricingOptions__item:nth-child(n + 2)::before {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  height: 1px;
+  background-color: var(--brand-color-border-default);
+}
+
+/* Vertical divider between items on larger viewports */
+@media (min-width: 63.25rem) {
+  .PricingOptions--layout-default .PricingOptions__item:nth-child(n + 2)::before {
+    inset-inline: 0;
+    inset-block: 0;
+    width: 1px;
+    height: auto;
+    margin-block-start: 0;
+    margin-inline-start: calc(var(--brand-pricing-options-item-gap) / 2 * -1);
+  }
+
+  .PricingOptions--layout-default.PricingOptions--appearance-gradient .PricingOptions__item:nth-child(n + 2)::before {
+    -webkit-mask-image: var(--brand-PricingOptions-borderMask);
+            mask-image: var(--brand-PricingOptions-borderMask);
+  }
+}
+
+/* ---------------------------------------------------------- */
+/* Layout: cards                                           */
+/* ---------------------------------------------------------- */
+
+.PricingOptions--layout-cards .PricingOptions__item {
+  position: relative;
+  padding-inline: var(--base-size-32);
+  border-radius: var(--brand-borderRadius-xlarge);
+  padding-block: var(--base-size-32);
+}
+
+.PricingOptions--layout-cards.PricingOptions--appearance-solid .PricingOptions__item {
+  background-color: var(--brand-PricingOptions-item-bgColor-solid);
+  border: solid var(--brand-borderWidth-thin) var(--brand-color-border-default);
+}
+
+/* ---------------------------------------------------------- */
+/* Items                                                      */
+/* ---------------------------------------------------------- */
+
+@media (min-width: 48rem) {
+  :where(.PricingOptions--layout-cards.PricingOptions--items4) {
+    row-gap: var(--brand-pricing-options-item-gap);
+  }
+}
+
+@media (min-width: 63.25rem) {
+  .PricingOptions--items1 {
+    width: 50%;
+    margin-inline: auto;
+  }
+
+  .PricingOptions--layout-default.PricingOptions--items1 {
+    --brand-pricing-options-container-padding-inline: var(--brand-PricingOptions-items1-container-paddingInline);
+  }
+
+  .PricingOptions--layout-default.PricingOptions--items2 {
+    --brand-pricing-options-item-gap: var(--brand-PricingOptions-items2-gap);
+    --brand-pricing-options-container-padding-inline: var(--brand-PricingOptions-items2-container-padding-inline);
+  }
+
+  .PricingOptions--layout-default.PricingOptions--items3 {
+    --brand-pricing-options-item-gap: var(--brand-PricingOptions-items3-gap);
+    --brand-pricing-options-container-padding-inline: var(--brand-PricingOptions-items3-container-padding-inline);
+  }
+  .PricingOptions--layout-default.PricingOptions--items4 {
+    --brand-pricing-options-item-gap: var(--brand-PricingOptions-items4-gap);
+    --brand-pricing-options-container-padding-inline: var(--brand-PricingOptions-items4-container-padding-inline);
+  }
+}
+
+/* ---------------------------------------------------------- */
+/* Item inner layout                                       */
+/* ---------------------------------------------------------- */
+
+.PricingOptions__item {
+  display: grid;
+  grid-template-areas: var(--brand-pricing-options-template-areas);
+}
+
+@media (min-width: 63.25rem) {
+  .PricingOptions__item {
+    grid-row: header / footnote;
+    grid-template-rows: subgrid;
+  }
+
+  .PricingOptions__item--has-leading-component {
+    grid-row: leadingComponent / footnote;
+  }
+}
+
+.PricingOptions__item--align-center {
+  justify-items: center;
+}
+
+.PricingOptions__item--align-center .PricingOptions__price,
+.PricingOptions__item--align-center .PricingOptions__description {
+  text-align: center;
+  justify-content: center;
+}
+
+.PricingOptions__item--align-center .PricingOptions__label {
+  justify-self: center;
+}
+
+/*
+ * Backwards compatibility for browsers that don't support subgrid.
+ * Once subgrid is supported in the last 3 major versions of Safari (i.e., when Safari 18 is released), it can be fully removed.
+ * https://caniuse.com/css-subgrid
+ */
+@supports not (grid-template-rows: subgrid) {
+  @media (min-width: 63.28rem) {
+    .PricingOptions__item {
+      grid-template-areas: var(--brand-pricing-options-template-areas);
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+  }
+}
+
+/* ---------------------------------------------------------- */
+/* Content                                                 */
+/* ---------------------------------------------------------- */
+
+.PricingOptions__header {
+  display: flex;
+  grid-area: header;
+  row-gap: var(--base-size-16);
+}
+
+/* When item is left-aligned, place the label next to the heading if it fits, and stack it if it doesn't */
+.PricingOptions__item:not(.PricingOptions__item--align-center) .PricingOptions__header {
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  -moz-column-gap: var(--base-size-16);
+       column-gap: var(--base-size-16);
+  margin-block-end: var(--base-size-16);
+}
+
+.PricingOptions__item:not(.PricingOptions__item--align-center) .PricingOptions__label {
+  --brand-Label-color: var(--brand-color-accent-primary);
+  --brand-Label-color-start: var(--brand-color-accent-primary-start);
+  --brand-Label-color-end: var(--brand-color-accent-primary-end);
+  flex: 0 0 auto;
+  order: 2;
+}
+
+.PricingOptions__item:not(.PricingOptions__item--align-center) .PricingOptions__heading {
+  margin-block: var(--base-size-16);
+  flex: 0 1 auto;
+  order: 1;
+  align-self: flex-start;
+}
+
+@media (min-width: 63.24rem) {
+  .PricingOptions__item:not(.PricingOptions__item--align-center) .PricingOptions__heading {
+    margin-block: 0;
+  }
+}
+
+/* When item is centered, stack the label on top the heading */
+.PricingOptions__item--align-center .PricingOptions__header {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.PricingOptions__item--align-center .PricingOptions__label {
+  --brand-Label-color: var(--brand-color-accent-primary);
+  --brand-Label-color-start: var(--brand-color-accent-primary-start);
+  --brand-Label-color-end: var(--brand-color-accent-primary-end);
+  order: 1;
+  margin: 0 auto;
+}
+
+.PricingOptions__item--align-center .PricingOptions__heading {
+  margin-block-start: 0;
+  margin-block-end: var(--base-size-16);
+  order: 2;
+}
+
+.PricingOptions__leading-component {
+  grid-row: leadingComponent;
+}
+
+.PricingOptions__label {
+  /* Sets the color of the label to the primary accent color, if it exists */
+  --brand-Label-color: var(--brand-color-accent-primary);
+
+  /* Sets the color of the label to the primary accent gradient, if it exists */
+  /* TODO accent grandient tokens do not exist yet */
+  --brand-Label-color-start: var(--brand-color-accent-primary-start);
+  --brand-Label-color-end: var(--brand-color-accent-primary-end);
+
+  flex: 0 0 auto;
+  order: 2;
+}
+
+.PricingOptions__heading {
+  margin-block: var(--base-size-16);
+  flex: 0 1 auto; /* Minimum width before wrapping */
+  order: 1;
+  align-self: flex-start;
+}
+
+.PricingOptions__description {
+  grid-row: description;
+}
+
+.PricingOptions__price {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  grid-row: price;
+  padding-block-start: var(--base-size-20);
+  padding-block-end: var(--base-size-8);
+}
+
+@media (max-width: 63.25rem) {
+  .PricingOptions__price-value,
+  .PricingOptions__price-currency-symbol {
+    font-size: var(--brand-text-size-900);
+  }
+}
+
+.PricingOptions__price-currency-code {
+  margin-inline-start: var(--base-size-4);
+  color: var(--brand-color-text-muted);
+}
+
+.PricingOptions__price-original-price {
+  display: inline-flex;
+  align-self: center;
+  text-decoration: none;
+  margin-inline-start: var(--base-size-8);
+}
+
+.PricingOptions__price-original-price-value {
+  text-decoration: line-through;
+}
+
+.PricingOptions__price-trailing-text {
+  flex: 1 0 100%;
+  display: block;
+}
+
+.PricingOptions__actions {
+  grid-row: actions;
+  display: flex;
+  flex-direction: column;
+  gap: var(--base-size-8);
+  align-items: flex-end;
+  padding-block-start: var(--base-size-20);
+}
+
+.PricingOptions__footnote {
+  grid-row: footnote;
+  display: block;
+  margin-block-start: var(--base-size-8);
+}
+
+/* ---------------------------------------------------------- */
+/* Feature list                                            */
+/* ---------------------------------------------------------- */
+
+.PricingOptions__feature-list {
+  --feature-list-font-size: var(--brand-text-size-200);
+  --feature-list-line-height: var(--brand-text-lineHeight-200);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--base-size-8);
+  grid-row: feature-list;
+  margin-block-start: var(--base-size-20);
+  padding-block-start: var(--base-size-20);
+  width: 100%;
+}
+
+.PricingOptions__feature-list--has-divider {
+  border-block-start: solid 1px var(--brand-color-border-default);
+  margin: 0;
+  margin-block-start: var(--base-size-20);
+  padding-block-start: var(--base-size-40);
+  padding-inline: 0;
+}
+
+.PricingOptions__feature-list-set:nth-child(n + 2) {
+  margin-block-start: var(--base-size-20);
+}
+
+.PricingOptions__feature-list-group-heading {
+  color: var(--brand-PricingOptions-featureList-group-heading-color);
+  margin-block-start: var(--base-size-12);
+  margin-block-end: var(--base-size-8);
+}
+
+.PricingOptions__feature-list-item--excluded span {
+  color: var(--brand-color-text-muted);
+}
+
+.PricingOptions__feature-list + .PricingOptions__feature-list-group-heading {
+  margin-block-start: var(--base-size-20);
+}
+
+.PricingOptions__feature-list-item,
+.PricingOptions__feature-list-item span {
+  font-size: var(--feature-list-font-size) !important;
+  line-height: var(--feature-list-line-height) !important;
+}
+
+.PricingOptions__feature-list-group-heading {
+  font-size: var(--feature-list-font-size) !important;
+}
+
+.PricingOptions--items4 .PricingOptions__feature-list {
+  --feature-list-font-size: var(--brand-text-size-100);
+  --feature-list-line-height: var(--brand-text-lineHeight-100);
+}
+
+/*
+ * Accordion component overrides
+ */
+
+/*  paddings and borders */
+.PricingOptions__feature-list-accordion {
+  border: 0;
+  padding: 0;
+}
+
+/* Remove hover effect */
+.PricingOptions__feature-list-accordion::after {
+  content: none !important;
+}
+
+/* Adjust heading spacing */
+.PricingOptions__feature-list-accordion-heading {
+  padding: var(--base-size-8) 0;
+  padding-inline-start: 0 !important; /* Fixes dotcom specificity issue */
+  margin-block-start: calc(var(--base-size-16) * -1);
+  margin-block-end: var(--base-size-8);
+}
+
+/* Accordion heading styling */
+.PricingOptions__feature-list-accordion .PricingOptions__feature-list-accordion-heading :is(h1, h2, h3, h4, h5, h6) {
+  font-size: var(--feature-list-font-size);
+  line-height: var(--feature-list-line-height);
+  gap: var(--base-size-8);
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Hide default icon */
+.PricingOptions__feature-list-accordion .PricingOptions__feature-list-accordion-heading span {
+  display: none;
+}
+
+/* Adjust content paddings */
+.PricingOptions__feature-list-accordion .PricingOptions__feature-list-accordion-content {
+  padding: 0;
+  padding-block-start: var(--base-size-8);
+  padding-inline-start: 0 !important;
+}
+
+/* Chevron up icon */
+.PricingOptions__feature-list-accordion[open] .PricingOptions__feature-list-accordion-chevron {
+  transform: rotate(180deg);
+}
+
+.PricingOptions__feature-list-accordion-content {
+  animation: none !important;
+}

@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-css@0.63.0/components/ExpandableArrow/ExpandableArrow.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+.ExpandableArrow{transition:transform .2s;transform:translateX(0)}.ExpandableArrow--expanded{transform:translateX(4px)}.ExpandableArrow-stem{stroke-dasharray:10;stroke-dashoffset:10;transition:stroke-dashoffset .2s}.ExpandableArrow-stem--expanded{stroke-dashoffset:20}.ExpandableArrow--reversed{transform:rotate(180deg)}.ExpandableArrow--reversed.ExpandableArrow--expanded{transform:rotate(180deg) translateX(4px)}
+/*# sourceMappingURL=/sm/91eaf0309cc3518b97bfab62fea498aa17eb9defb08d5de30e8e35f8f54a2016.map */

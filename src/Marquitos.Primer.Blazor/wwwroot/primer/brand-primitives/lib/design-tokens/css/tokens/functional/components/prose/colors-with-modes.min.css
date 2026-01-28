@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/prose/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-Prose-unorderedList-imageUrl:url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' focusable='false' role='img' viewBox='0 -3 16 16' width='16' height='16' fill='black' style='display: inline-block; vertical-align: text-bottom; overflow: visible;'%3e%3cpath d='M2 7.75A.75.75 0 0 1 2.75 7h10a.75.75 0 0 1 0 1.5h-10A.75.75 0 0 1 2 7.75Z'%3e%3c/path%3e%3c/svg%3e");--brand-Prose-code-bgColor:var(--base-color-scale-indigo-0)}[data-color-mode=dark]{--brand-Prose-unorderedList-imageUrl:url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' focusable='false' role='img' viewBox='0 -3 16 16' width='16' height='16' fill='white' style='display: inline-block; vertical-align: text-bottom; overflow: visible;'%3e%3cpath d='M2 7.75A.75.75 0 0 1 2.75 7h10a.75.75 0 0 1 0 1.5h-10A.75.75 0 0 1 2 7.75Z'%3e%3c/path%3e%3c/svg%3e");--brand-Prose-code-bgColor:var(--base-color-scale-indigo-9)}
+/*# sourceMappingURL=/sm/5507017adf7dd1959e88f7634f71ec7c84cfdb48d1c6d1feb05616bfc34617b1.map */

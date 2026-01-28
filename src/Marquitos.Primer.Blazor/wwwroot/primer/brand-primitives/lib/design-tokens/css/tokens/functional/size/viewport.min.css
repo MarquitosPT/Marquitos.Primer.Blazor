@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/size/viewport.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+@custom-media --brand-viewportRange-narrow-viewport (max-width: calc(48rem - 0.02px));@custom-media --brand-viewportRange-narrowLandscape-viewport (max-width: calc(63.25rem - 0.02px) and (max-height: calc(34rem - 0.02px)) and (orientation: landscape));@custom-media --brand-viewportRange-regular-viewport (min-width: 48rem);@custom-media --brand-viewportRange-wide-viewport (min-width: 87.5rem);@custom-media --brand-viewportRange-portrait-viewport (orientation: portrait);@custom-media --brand-viewportRange-landscape-viewport (orientation: landscape);
+/*# sourceMappingURL=/sm/026015a1460205eb4d4603a5001035d1b18c70c191abdfa5b597beafa8f2deba.map */

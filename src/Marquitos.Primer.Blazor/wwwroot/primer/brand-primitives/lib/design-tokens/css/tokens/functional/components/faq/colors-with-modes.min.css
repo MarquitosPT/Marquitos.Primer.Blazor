@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/faq/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-FAQ-color-heading:var(--brand-color-text-default);--brand-FAQ-color-tabLabel-selected:var(--brand-color-text-default);--brand-FAQ-color-tabBg-selected:var(--base-color-scale-gray-1)}[data-color-mode=dark]{--brand-FAQ-color-heading:var(--brand-color-text-default);--brand-FAQ-color-tabLabel-selected:var(--brand-color-text-default);--brand-FAQ-color-tabBg-selected:var(--base-color-scale-gray-7)}
+/*# sourceMappingURL=/sm/878a1428c74dd8254b1f8cdb4733ff035e8815dfa364b8c947692ce7c37000f3.map */

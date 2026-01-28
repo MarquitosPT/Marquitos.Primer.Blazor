@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-css@0.63.0/components/SectionIntroStacked/SectionIntroStacked.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+.SectionIntroStacked{--brand-Grid-spacing-row:var(--base-size-48)}.SectionIntroStacked-heading--muted,.SectionIntroStackedItem__item-text--muted{color:var(--brand-color-text-muted)}.SectionIntroStacked-heading--muted b,.SectionIntroStacked-heading--muted em,.SectionIntroStackedItem__item-text b,.SectionIntroStackedItem__item-text em{color:var(--brand-color-text-default);font-style:normal;font-weight:var(--base-text-weight-normal)}.SectionIntroStacked--full-width .SectionIntroStacked-heading{max-width:none}.SectionIntroStacked-link{margin-block-start:var(--base-size-16)}.SectionIntroStacked-items{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:var(--base-size-32)}@media screen and (max-width:63.25rem){.SectionIntroStacked-heading{font-size:var(--brand-text-size-600)}}@media screen and (min-width:48rem){.SectionIntroStackedItem-item{gap:var(--base-size-40)}.SectionIntroStacked-items{position:relative;top:var(--base-size-2)}}
+/*# sourceMappingURL=/sm/0f6d532563681a0f49a42385e0af5488d08e3d7c0ce7709df0df1973114218d5.map */

@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/section/section.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root{--brand-Section-container-maxWidth:80rem;--brand-Section-padding-spacious:var(--base-size-64);--brand-Section-padding-normal:var(--base-size-48);--brand-Section-padding-condensed:var(--base-size-16)}@media (min-width:768px){:root{--brand-Section-padding-spacious:var(--base-size-80);--brand-Section-padding-normal:var(--base-size-64);--brand-Section-padding-condensed:var(--base-size-32)}}@media (min-width:1024px){:root{--brand-Section-padding-spacious:var(--base-size-128);--brand-Section-padding-normal:var(--base-size-96);--brand-Section-padding-condensed:var(--base-size-48)}}
+/*# sourceMappingURL=/sm/c3156086e7a2631e2ef5c595cb26512ea6ec96a6f1ad86cf576c4f812cfe67c4.map */

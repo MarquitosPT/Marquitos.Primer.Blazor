@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-css@0.63.0/components/Footnotes/Footnotes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+.Footnotes{padding-block:var(--base-size-80);display:flex;flex-direction:column;gap:var(--base-size-24)}.Footnotes--variant-citations{margin:0;padding-inline-start:var(--base-size-16);font-family:var(--brand-body-fontFamily);font-weight:var(--brand-text-weight-100);font-size:var(--brand-text-size-100);line-height:var(--brand-text-lineHeight-100);letter-spacing:var(--brand-text-letterSpacing-100);color:var(--brand-color-text-muted)}.Footnotes--variant-citations .FootnotesItem{padding-inline-start:var(--base-size-12)}.FootnotesItem{scroll-margin-top:80px}.FootnotesItem__citationIcon{transform:scaleY(-1);margin-inline-start:var(--base-size-4)}.FootnotesItem__citationText{display:inline;gap:var(--base-size-4)}
+/*# sourceMappingURL=/sm/6e7588d1b7e0871e5366a62f085f610c74036278d8f1fb35fd90208420c5eff2.map */

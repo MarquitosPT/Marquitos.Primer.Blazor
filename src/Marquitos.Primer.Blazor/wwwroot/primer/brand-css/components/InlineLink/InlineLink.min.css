@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-css@0.63.0/components/InlineLink/InlineLink.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+.InlineLink{position:relative;text-decoration:underline;text-decoration-color:var(--brand-InlineLink-color-rest);text-decoration-thickness:var(--brand-borderWidth-thin);text-underline-position:under;transition:var(--brand-InlineLink-transition-timing) text-decoration}.InlineLink:hover{text-decoration-thickness:var(--brand-borderWidth-thick)}.InlineLink,.InlineLink>span{font-size:inherit;font-weight:inherit;line-height:inherit;color:var(--brand-InlineLink-color-rest)}.InlineLink:active,.InlineLink:active>span{color:var(--brand-InlineLink-color-pressed)}[data-color-mode=dark] .InlineLink{-webkit-font-smoothing:subpixel-antialiased;-moz-osx-font-smoothing:auto}@media (prefers-reduced-motion:reduce){.InlineLink,.InlineLink *,.InlineLink::after,.InlineLink::before{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/*# sourceMappingURL=/sm/fbcf05485561a24a15eca8e03e51dc17598b1e40b8bb64edbc2fc64cbf07d71f.map */

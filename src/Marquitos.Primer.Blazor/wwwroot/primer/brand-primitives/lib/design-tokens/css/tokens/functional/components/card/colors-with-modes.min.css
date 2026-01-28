@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/card/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-Card-background-default:var(--brand-color-canvas-default)}[data-color-mode=dark]{--brand-Card-background-default:var(--brand-color-canvas-subtle)}
+/*# sourceMappingURL=/sm/123209c578f527ae9a575f233d4be7694cb734a514e0659e021709438bcabecb.map */

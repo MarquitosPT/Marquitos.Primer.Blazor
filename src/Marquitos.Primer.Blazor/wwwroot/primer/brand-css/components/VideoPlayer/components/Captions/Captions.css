@@ -1,0 +1,14 @@
+.Captions {
+  flex: 0 0 var(--base-size-64);
+  width: 100%;
+  padding: var(--base-size-8) var(--base-size-16) 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  background-color: var(--base-color-scale-black-0);
+}
+
+.Captions__text {
+  color: var(--brand-VideoPlayer-closedCaption-text-fgColor);
+}

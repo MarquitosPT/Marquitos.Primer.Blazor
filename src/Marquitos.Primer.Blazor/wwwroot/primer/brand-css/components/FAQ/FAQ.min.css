@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-css@0.63.0/components/FAQ/FAQ.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+.FAQ{max-width:var(--brand-FAQ-maxWidth-list);margin:0 auto}.FAQ__heading{color:var(--brand-FAQ-color-heading);margin-bottom:var(--brand-FAQ-heading-marginBottom)}.FAQ__subheading{margin-bottom:var(--base-size-16);color:var(--brand-color-text-muted)}.FAQ__heading--start{text-align:left}.FAQ__heading--center{text-align:center;max-width:18ch;margin-left:auto;margin-right:auto}.FAQ__heading--large{font-weight:var(--brand-text-weight-normal);font-size:var(--brand-text-size-800);line-height:var(--brand-text-lineHeight-800);letter-spacing:var(--brand-text-letterSpacing-800)}.FAQ details+.FAQ__subheading{margin-top:var(--base-size-48)}.FAQ.details__summary{font-weight:var(--brand-text-weight-normal);font-size:var(--brand-text-size-800);line-height:var(--brand-text-lineHeight-800);letter-spacing:var(--brand-text-letterSpacing-800);color:var(--brand-FAQ-color-heading);cursor:pointer;outline:0;border:none;background:0 0;padding:0;margin:0}
+/*# sourceMappingURL=/sm/45ffe49ef343ec00ddcccf4d7ee43eaaccb78ffb4d52c7b38f161026ba656d7f.map */

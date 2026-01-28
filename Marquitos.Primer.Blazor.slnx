@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Marquitos.Primer.Blazor.Demo/Marquitos.Primer.Blazor.Demo.csproj" />
+    <Project Path="src/Marquitos.Primer.Blazor/Marquitos.Primer.Blazor.csproj" />
+  </Folder>
+</Solution>

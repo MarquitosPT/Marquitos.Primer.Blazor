@@ -1,0 +1,13 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ */
+
+:root,
+[data-color-mode="light"] {
+  --brand-Tooltip-color-default: var(--brand-color-text-onEmphasis);
+}
+
+[data-color-mode="dark"] {
+  --brand-Tooltip-color-default: var(--brand-color-text-default);
+}

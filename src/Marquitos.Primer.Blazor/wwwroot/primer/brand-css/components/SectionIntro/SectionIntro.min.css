@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-css@0.63.0/components/SectionIntro/SectionIntro.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+.SectionIntro{display:flex;flex-direction:column;gap:var(--base-size-16);align-items:flex-start;padding-block:var(--base-size-24)}.SectionIntro-heading--muted{color:var(--brand-color-text-muted)}.SectionIntro-heading--muted b,.SectionIntro-heading--muted em{color:var(--brand-color-text-default);font-style:normal;font-weight:inherit}.SectionIntro--align-start{text-align:start}.SectionIntro--align-center{align-items:center;text-align:center;padding-inline:var(--base-size-24)}.SectionIntro-heading{max-width:24ch}.SectionIntro--full-width .SectionIntro-heading{max-width:none}.SectionIntro-label{margin-block-end:var(--base-size-8)}.SectionIntro-description{max-width:50ch}.SectionIntro-link{margin-top:var(--base-size-16)}
+/*# sourceMappingURL=/sm/e00cbb0bb50e1958aec2e9110a72ffb50c58be2f1a6c9c63a5ddffb28e6b3d97.map */

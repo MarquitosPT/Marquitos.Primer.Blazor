@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/footer/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-footer-bg-color:var(--base-color-scale-white);--brand-footer-socialIcon-hoverFilter:brightness(0)}[data-color-mode=dark]{--brand-footer-bg-color:var(--base-color-scale-gray-9);--brand-footer-socialIcon-hoverFilter:brightness(2)}
+/*# sourceMappingURL=/sm/de981fb63d33aae9799a2d465da4992372674a97bec1e7991f5d95e84441eb31.map */

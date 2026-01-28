@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/grid/grid.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root{--brand-Grid-spacing-margin:var(--base-size-16);--brand-Grid-spacing-column-gap:var(--base-size-16);--brand-Grid-spacing-row:var(--base-size-16)}@media (min-width:768px){:root{--brand-Grid-spacing-margin:var(--base-size-40);--brand-Grid-spacing-column-gap:var(--base-size-32);--brand-Grid-spacing-row:var(--base-size-32)}}@media (min-width:1280px){:root{--brand-Grid-spacing-margin:var(--base-size-16);--brand-Grid-spacing-column-gap:var(--base-size-48);--brand-Grid-spacing-row:var(--base-size-48)}}
+/*# sourceMappingURL=/sm/6c8312a01942906e41d59958cf9cefdabb125f37f6cb8a7a289adf0a9e014a60.map */

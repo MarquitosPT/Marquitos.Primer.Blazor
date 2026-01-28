@@ -1,0 +1,109 @@
+.Link {
+  --visual-width: var(--external-icon-size, var(--arrow-size, 0px));
+  --gap: 0px;
+  position: relative;
+  display: inline-flex;
+  -moz-column-gap: var(--gap);
+       column-gap: var(--gap);
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Link--arrow-start,
+.Link--arrow-end {
+  --gap: var(--base-size-4);
+  --arrow-size: var(--base-size-16);
+
+  /* Optical alignment */
+  position: relative;
+  top: 0.05em;
+}
+
+.Link--arrow-start.Link--large,
+.Link--arrow-end.Link--large {
+  --arrow-size: var(--base-size-20);
+}
+
+.Link--is-external {
+  --gap: var(--base-size-4);
+  --external-icon-size: var(--base-size-16);
+}
+
+.Link--is-external.Link--large {
+  --external-icon-size: var(--base-size-20);
+}
+
+.Link:hover {
+  text-decoration: none;
+}
+
+.Link::after {
+  position: absolute;
+  bottom: -0.15em;
+  left: 0;
+  width: calc(100% - var(--gap) - var(--visual-width));
+  pointer-events: none;
+  content: '';
+  border: var(--brand-borderWidth-thin) solid currentColor;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .Link::after {
+    transition: transform var(--brand-animation-duration-fast) ease;
+  }
+}
+
+.Link:active:after,
+.Link:hover:after {
+  transform: scaleX(1);
+}
+
+.Link:focus:focus-visible {
+  outline: var(--brand-borderWidth-thick) solid var(--brand-color-focus);
+  outline-offset: var(--base-size-2);
+}
+
+.Link--default,
+.Link--default span {
+  color: var(--brand-Link-color-default);
+}
+
+.Link--accent,
+.Link--accent span {
+  color: var(--brand-Link-color-accent);
+}
+
+.Link--label {
+  font-weight: var(--base-text-weight-medium);
+}
+
+.Link--large .Link--label {
+  font-size: var(--base-size-20);
+}
+
+.Link--large .Link-arrow {
+  width: var(--arrow-size);
+  height: var(--arrow-size);
+}
+
+.Link--arrow-start::after {
+  left: auto;
+  right: 0;
+  transform-origin: right 0;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  .Link,
+  .Link::before,
+  .Link::after,
+  .Link * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

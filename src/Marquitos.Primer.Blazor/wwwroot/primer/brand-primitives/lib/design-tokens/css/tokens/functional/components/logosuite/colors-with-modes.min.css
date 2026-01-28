@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/logosuite/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-LogoSuite-color-control-rest:var(--base-color-scale-gray-1);--brand-LogoSuite-color-control-hover:var(--base-color-scale-gray-2);--brand-LogoSuite-color-logo-muted:var(--brand-color-text-muted);--brand-LogoSuite-color-logo-emphasis:var(--brand-color-text-default);--brand-LogoSuite-color-logo-filter-muted:brightness(0) saturate(100%) invert(37%) sepia(7%) saturate(778%) hue-rotate(171deg) brightness(96%) contrast(91%);--brand-LogoSuite-color-logo-filter-emphasis:brightness(0) saturate(100%) invert(12%) sepia(20%) saturate(450%) hue-rotate(172deg) brightness(100%) contrast(91%)}[data-color-mode=dark]{--brand-LogoSuite-color-control-rest:#4d4e6a;--brand-LogoSuite-color-control-hover:#5a5b7c;--brand-LogoSuite-color-logo-muted:var(--brand-color-text-muted);--brand-LogoSuite-color-logo-emphasis:var(--brand-color-text-default);--brand-LogoSuite-color-logo-filter-muted:brightness(0) saturate(100%) invert(61%) sepia(8%) saturate(430%) hue-rotate(171deg) brightness(94%) contrast(92%);--brand-LogoSuite-color-logo-filter-emphasis:brightness(0) saturate(100%) invert(91%) sepia(2%) saturate(2455%) hue-rotate(193deg) brightness(107%) contrast(98%)}
+/*# sourceMappingURL=/sm/3e538495f44b514bc7d76a707667134661af6dc9e6e7fd5e3c255e0835824dcd.map */

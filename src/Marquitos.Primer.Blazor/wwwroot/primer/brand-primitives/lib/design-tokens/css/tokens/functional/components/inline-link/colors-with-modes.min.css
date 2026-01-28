@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/inline-link/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-InlineLink-color-rest:var(--base-color-scale-blue-6);--brand-InlineLink-color-pressed:var(--base-color-scale-blue-8)}[data-color-mode=dark]{--brand-InlineLink-color-rest:var(--base-color-scale-blue-2);--brand-InlineLink-color-pressed:var(--base-color-scale-blue-1)}
+/*# sourceMappingURL=/sm/2b6b813c5a0ab56e880d1fed141e74dfb856de796f2ab16ef9294b49418937d4.map */

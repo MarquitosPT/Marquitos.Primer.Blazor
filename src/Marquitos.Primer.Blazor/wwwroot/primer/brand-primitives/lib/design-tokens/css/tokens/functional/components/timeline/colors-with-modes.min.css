@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/timeline/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-Timeline-line-color:var(--brand-color-border-default)}[data-color-mode=dark]{--brand-Timeline-line-color:var(--base-color-scale-gray-4)}
+/*# sourceMappingURL=/sm/dd7006a87cfc778ab1cc02842c39d29ff84ae0655a80ebe7c887c4737eb71799.map */

@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/cta-banner/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-CTABanner-shadow-color-start:var(--base-color-scale-green-5);--brand-CTABanner-shadow-color-end:var(--base-color-scale-blue-5);--brand-CTABanner-bgColor:var(--brand-color-canvas-default)}[data-color-mode=dark]{--brand-CTABanner-shadow-color-start:var(--base-color-scale-green-2);--brand-CTABanner-shadow-color-end:var(--base-color-scale-blue-3);--brand-CTABanner-bgColor:var(--brand-color-canvas-default)}
+/*# sourceMappingURL=/sm/cccd363de5885c7297af2d735a2604adab4e24de4f28309f573a08011bb766d3.map */
