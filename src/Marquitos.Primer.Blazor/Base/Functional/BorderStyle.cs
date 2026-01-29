@@ -1,4 +1,4 @@
-namespace Marquitos.Primer.Blazor.Base.Sizes
+namespace Marquitos.Primer.Blazor.Base.Functional
 {
     public sealed record BorderStyle
     {

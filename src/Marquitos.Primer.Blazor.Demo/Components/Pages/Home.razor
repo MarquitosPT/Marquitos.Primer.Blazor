@@ -5,15 +5,98 @@
 
 <h1>Marquitos Primer Blazor Components</h1>
 
-<h3>Blazor components inspired by GitHub's Primer Brand UI design system.</h3>
+<h3>Blazor components inspired by GitHub’s <strong>Primer Brand UI</strong> — the design system behind GitHub.com/marketing.</h3>
 
-<Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+<br />
+
+<p><strong>Goal:</strong> bring these marketing components to the Blazor ecosystem — Hero, CTA, Section Intro, Bento, River,
+LogoGrid, Testimonial, Timeline, Feature Comparison, and more — so developers can build clean, consistent,
+and production‑ready UIs while contributing to an open, community‑driven project that keeps getting better together.</p>
+
+<br />
+
+<h3>Box component</h3>
+<Box BackgroundColor="BackgroundColor.Default" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
     <p>This is an Box example.</p>
     <p>You can choose from light or dark theme pressing the following buttons.</p>
     <button type="button" class="btn" @onclick="ButtonLightClick">Light Theme</button>
     <button type="button" class="btn" @onclick="ButtonDarkClick">Dark Theme</button>
 </Box>
 
+<br />
+
+<h3>Stack component</h3>
+<Box BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+    <p>Stack with horizontal direction and justify content start</p>
+    <Stack Direction="Direction.Horizontal">
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is another Box example inside a Stack component.</p>
+        </Box>
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is yet another Box example inside a Stack component.</p>
+        </Box>
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content end</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.End">
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is another Box example inside a Stack component.</p>
+        </Box>
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is yet another Box example inside a Stack component.</p>
+        </Box>
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content center</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.Center">
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is another Box example inside a Stack component.</p>
+        </Box>
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is yet another Box example inside a Stack component.</p>
+        </Box>
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content space between</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.SpaceBetween">
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is another Box example inside a Stack component.</p>
+        </Box>
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is yet another Box example inside a Stack component.</p>
+        </Box>
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content space around</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.SpaceAround">
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is another Box example inside a Stack component.</p>
+        </Box>
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is yet another Box example inside a Stack component.</p>
+        </Box>
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content space evenly</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.SpaceEvenly">
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is another Box example inside a Stack component.</p>
+        </Box>
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is yet another Box example inside a Stack component.</p>
+        </Box>
+    </Stack>
+
+    <p>Stack with vertical direction</p>
+    <Stack Direction="Direction.Vertical">
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is another Box example inside a Stack component.</p>
+        </Box>
+        <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+            <p>This is yet another Box example inside a Stack component.</p>
+        </Box>
+    </Stack>
+</Box>
 
 @code{
 

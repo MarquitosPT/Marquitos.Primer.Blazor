@@ -1,4 +1,5 @@
 using Marquitos.Primer.Blazor.Base.Colors;
+using Marquitos.Primer.Blazor.Base.Functional;
 using Marquitos.Primer.Blazor.Base.Sizes;
 using Microsoft.AspNetCore.Components;
 
@@ -12,7 +13,7 @@ namespace Marquitos.Primer.Blazor.Layout
     /// While the box component is highly customizable and can be used to create complex layouts,
     /// it is important to use it judiciously and only when necessary.
     /// </summary>
-    public partial class Box
+    public partial class Box : ComponentBase
     {
         [Parameter] public RenderFragment? ChildContent { get; set; }
 
@@ -231,7 +232,7 @@ namespace Marquitos.Primer.Blazor.Layout
             return result.Trim();
         }
 
-        private string? GetBoxClasses()
+        private string? GetClasses()
         {
             var marginClass = GetMarginClass();
             var paddingClass = GetPaddingClass();

@@ -3,11 +3,12 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/marquitospt/Marquitos.Primer.Blazor/dotnet.yml?branch=main&style=flat-square)]()
 [![License](https://img.shields.io/github/license/marquitospt/Marquitos.Primer.Blazor.svg?style=flat-square)](LICENSE)  
 
-Componentes Blazor inspirados no **Primer Brand UI** do GitHub — o design system usado em GitHub.com/marketing.
+Blazor components inspired by GitHub’s **Primer Brand UI** — the design system behind GitHub.com/marketing.
 
-**Objetivo:** trazer para Blazor os mesmos componentes de marketing usados pelo GitHub: Hero, CTA, Section Intro, Bento, River, LogoGrid, Testimonial, Timeline, Feature Comparison e muito mais.
+**Goal**: bring these marketing components to the Blazor ecosystem — Hero, CTA, Section Intro, Bento, River,
+LogoGrid, Testimonial, Timeline, Feature Comparison, and more — so developers can build clean, consistent, and production‑ready UIs while contributing to an open, community‑driven project that keeps getting better together.
 
-## 📦 Instalação
+## 📦 Installation
 
 ```bash
 

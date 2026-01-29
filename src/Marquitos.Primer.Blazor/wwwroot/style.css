@@ -19,6 +19,7 @@
 @import 'primer/brand-primitives/lib/design-tokens/css/tokens/functional/components/card/colors.css';
 @import 'primer/brand-primitives/lib/design-tokens/css/tokens/functional/components/card/colors-with-modes.css';
 @import 'primer/brand-primitives/lib/design-tokens/css/tokens/functional/components/control/colors-with-modes.css';
+@import 'primer/brand-primitives/lib/design-tokens/css/tokens/functional/components/section/section.css';
 
 /* Functional Size tokens */
 @import 'primer/brand-primitives/lib/design-tokens/css/tokens/functional/size/border.css';
@@ -34,3 +35,4 @@
 
 /* Component styles */
 @import 'primer/brand-css/components/Box/Box.css';
+@import 'primer/brand-css/components/Stack/Stack.css';
