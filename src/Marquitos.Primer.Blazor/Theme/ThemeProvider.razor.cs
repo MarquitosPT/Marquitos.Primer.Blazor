@@ -14,7 +14,7 @@ namespace Marquitos.Primer.Blazor.Theme
 
         protected override async Task OnInitializedAsync()
         {
-            await ThemeService.SetThemeAsync(Theme);
+            Theme = await ThemeService.InitializeThemeAsync(Theme);
 
             ThemeService.OnThemeChanged += HandleThemeChanged;
         }

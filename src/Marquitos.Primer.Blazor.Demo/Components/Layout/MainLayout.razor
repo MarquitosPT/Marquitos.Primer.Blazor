@@ -5,15 +5,16 @@
     <div class="page">
         <div class="sidebar">
             <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderInlineEndWidth="BorderWidth.Thin" Padding="PaddingSize.Condensed">
-                @* <NavMenu /> *@
+                <NavMenu />
             </Box>
         </div>
 
         <main>
-@*             <div class="top-row">
-                <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderBlockEndWidth="BorderWidth.Thin" Padding="PaddingSize.Condensed">
+            <div class="top-row">
+                <Box BackgroundColor="BackgroundColor.Inset" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderBlockEndWidth="BorderWidth.Thin">
+                    <ThemeSelectorDisplay />
                 </Box>
-            </div> *@
+            </div>
 
             <article class="content px-4">
                 @Body

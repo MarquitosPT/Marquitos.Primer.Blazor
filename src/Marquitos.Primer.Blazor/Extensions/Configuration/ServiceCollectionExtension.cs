@@ -8,7 +8,7 @@ namespace Marquitos.Primer.Blazor.Extensions.Configuration
         public static IServiceCollection AddMarquitosPrimerComponents(this IServiceCollection services)
         {
             // Services
-            services.AddSingleton<ThemeService>();
+            services.AddScoped<ThemeService>();
 
             return services;
         }

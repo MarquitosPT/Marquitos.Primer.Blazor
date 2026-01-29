@@ -1,0 +1,65 @@
+@page "/layout"
+
+<h2>Layout Components</h2>
+
+<br />
+
+<h3>Box</h3>
+<Box BackgroundColor="BackgroundColor.Default" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+    <p>This is an Box example.</p>
+    <p>You can choose from light or dark theme pressing the buttons in menu bar.</p>
+</Box>
+
+<br />
+
+<h3>Stack</h3>
+<Box BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+    <p>Stack with horizontal direction and justify content start</p>
+    <Stack Direction="Direction.Horizontal">
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content end</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.End">
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content center</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.Center">
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content space between</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.SpaceBetween">
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content space around</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.SpaceAround">
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+    </Stack>
+
+    <p>Stack with horizontal direction and justify content space evenly</p>
+    <Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.SpaceEvenly">
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+        <img src="https://placehold.co/60x60" />
+    </Stack>
+
+    <p>Stack with vertical direction</p>
+    <Stack Direction="Direction.Vertical">
+        <div><img src="https://placehold.co/60x60" /></div>
+        <div><img src="https://placehold.co/60x60" /></div>
+    </Stack>
+</Box>
+
