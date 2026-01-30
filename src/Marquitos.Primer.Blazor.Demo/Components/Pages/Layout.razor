@@ -63,3 +63,73 @@
     </Stack>
 </Box>
 
+<br />
+
+<h3>Grid</h3>
+<Box BackgroundColor="BackgroundColor.Default" BorderColor="BorderColor.Default" BorderStyle="BorderStyle.Solid" BorderWidth="BorderWidth.Thin" BorderRadius="BorderRadius.Medium" Padding="PaddingSize.Normal">
+    <Grid>
+        <GridColumn Span="ColumnSpan.S3">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Column Span 3
+            </Box>
+        </GridColumn>
+        <GridColumn Span="ColumnSpan.S3">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Column Span 3
+            </Box>
+        </GridColumn>
+        <GridColumn Span="ColumnSpan.S3">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Column Span 3
+            </Box>
+        </GridColumn>
+        <GridColumn Span="ColumnSpan.S3">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Column Span 3
+            </Box>
+        </GridColumn>
+
+        <GridColumn Span="ColumnSpan.S4">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Column Span 4
+            </Box>
+        </GridColumn>
+        <GridColumn Span="ColumnSpan.S6">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Column Span 6
+            </Box>
+        </GridColumn>
+        <GridColumn Span="ColumnSpan.S2">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Column Span 2
+            </Box>
+        </GridColumn>
+
+        <GridColumn Span="ColumnSpan.S12">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Column Span 12
+            </Box>
+        </GridColumn>
+    </Grid>
+
+    <Grid>
+        <GridColumn ResponsiveSpan="ResponsiveSpan.Create(new[] {(DisplaySize.S, ColumnSpan.S12), (DisplaySize.M, ColumnSpan.S6)})">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Responsive Span (S 12, M 6)
+            </Box>
+        </GridColumn>
+        <GridColumn ResponsiveSpan="ResponsiveSpan.Create(new[] {(DisplaySize.S, ColumnSpan.S12), (DisplaySize.M, ColumnSpan.S6)})">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Responsive Span (S 12, M 6)
+            </Box>
+        </GridColumn>
+    </Grid>
+
+    <Grid>
+        <GridColumn ResponsiveStart="ResponsiveIndex.Create((DisplaySize.S, ColumnIndex.I2), (DisplaySize.M, ColumnIndex.I4))">
+            <Box BackgroundColor="BackgroundColor.Subtle" Padding="PaddingSize.P4">
+                Responsive Start (S 2, M 4)
+            </Box>
+        </GridColumn>
+    </Grid>
+</Box>
