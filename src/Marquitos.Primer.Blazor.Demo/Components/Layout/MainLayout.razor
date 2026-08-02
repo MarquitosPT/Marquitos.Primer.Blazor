@@ -3,11 +3,20 @@
     <div class="page">
 
     <div class="middle">
+        <div class="menu-toggle toggle">
+                <Box BackgroundColor="BackgroundColor.Inset"
+                     BorderColor="BorderColor.Default"
+                     BorderStyle="BorderStyle.Solid"
+                     BorderBlockEndWidth="BorderWidth.Thin">
+                    <Stack Direction="Direction.Horizontal"
+                           Padding="PaddingSize.P8">
+                        <button type="button" class="btn " onclick="document.querySelectorAll(['.toggle']).forEach(item => item.classList.toggle('open'))">
+                            ☰
+                        </button>
+                    </Stack>
+                </Box>
+        </div>
         
-        <button type="button" class="btn toggle menu-toggle" onclick="document.querySelectorAll(['.toggle']).forEach(item => item.classList.toggle('open'))">
-            ☰
-        </button>
-
         <Box BackgroundColor="BackgroundColor.Inset"
              BorderColor="BorderColor.Default"
              BorderStyle="BorderStyle.Solid"

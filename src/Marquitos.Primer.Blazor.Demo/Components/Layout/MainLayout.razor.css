@@ -104,23 +104,23 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    /*height: 50px;*/
     /*background: #000f2a;*/
     /*color: white;*/
-    border: none;
+    /*border: none;*/
     align-items: center;
-    justify-content: center;
-    outline: none;
+    /*justify-content: normal;*/
+    /*outline: none;*/
     z-index: 30;
 }
 
-    .menu-toggle:focus {
+/*    .menu-toggle:focus {
         outline-color: inherit;
         outline-style: dashed;
         outline-width: 1px;
         outline-offset: -1px;
-    }
+    }*/
 
 @media (max-width: 768px) {
 
@@ -142,7 +142,15 @@
     }
 
     .menu-toggle {
-        display: flex;
+        display: block;
+    }
+
+        .menu-toggle.open {
+            width: 220px;
+        }
+
+    .menu-toggle .btn {
+        padding-inline: 10px;
     }
 }
 
@@ -182,7 +190,7 @@
 
     .menu-bar {
         /*height: 50px;*/
-        /*padding-left: 50px;*/
+        padding-left: 50px;
         /*background: #eee;*/
         /*border-bottom: 1px solid #ccc;*/
     }
