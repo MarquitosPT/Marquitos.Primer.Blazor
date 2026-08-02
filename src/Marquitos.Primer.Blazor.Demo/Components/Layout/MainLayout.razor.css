@@ -125,7 +125,7 @@
 @media (max-width: 768px) {
 
     .sidebar {
-        margin-top: 50px;
+        margin-top: 49px;
         width: 50px;
     }
 
@@ -169,13 +169,19 @@
         top: 0;
         left: -1px;
         bottom: 27px;
+        display: grid;
         transform: translateX(-100%); /* escondida */
         z-index: 30;
+        border-style: solid;
+        border-color: var(--brand-color-border-default);
+        border-width: 0;
+        border-right-width: var(--brand-borderWidth-thin);
     }
 
         .sidebar.open {
             left: 0;
             transform: translateX(0); /* visível */
+            
         }
 
     .menu-toggle {
