@@ -1,34 +1,35 @@
-using Marquitos.Primer.Blazor.Base.Colors;
 using Marquitos.Primer.Blazor.Services;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Routing;
 
 namespace Marquitos.Primer.Blazor.Theme
 {
     public partial class ThemeProvider : ComponentBase, IDisposable
     {
-        [Inject] private ThemeService ThemeService { get; set; } = default!;
+        [Inject]
+        public ThemeStorageService ThemeStorage { get; set; } = default!;
 
-        [Parameter] public RenderFragment? ChildContent { get; set; }
+        [Inject]
+        public NavigationManager NavigationManager { get; set; } = default!;
 
-        [Parameter] public ThemeColor Theme { get; set; } = ThemeColor.Light;
-
-        protected override async Task OnInitializedAsync()
+        protected override void OnInitialized()
         {
-            Theme = await ThemeService.InitializeThemeAsync(Theme);
-
-            ThemeService.OnThemeChanged += HandleThemeChanged;
+            NavigationManager.LocationChanged += OnLocationChanged;
         }
 
-        public void Dispose()
+        protected override async Task OnAfterRenderAsync(bool firstRender)
         {
-            ThemeService.OnThemeChanged -= HandleThemeChanged;
+            await ThemeStorage.SetThemeColorAsync();
         }
 
-        private void HandleThemeChanged(object? sender, ThemeColor theme)
+        private async void OnLocationChanged(object? sender, LocationChangedEventArgs args)
         {
-            Theme = theme;
+            await InvokeAsync(StateHasChanged);
+        }
 
-            InvokeAsync(StateHasChanged);
+        void IDisposable.Dispose()
+        {
+            NavigationManager.LocationChanged -= OnLocationChanged;
         }
     }
 }

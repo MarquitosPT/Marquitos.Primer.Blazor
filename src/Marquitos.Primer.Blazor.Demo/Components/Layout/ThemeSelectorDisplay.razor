@@ -1,20 +1,26 @@
 @using Marquitos.Primer.Blazor.Services
-<Stack Direction="Direction.Horizontal" HorizontalAlignment="HorizontalAlignment.End">
+@rendermode InteractiveServer
+
+<Stack
+    Direction="Direction.Horizontal"
+    HorizontalAlignment="HorizontalAlignment.End"
+    Padding="PaddingSize.P8"
+    Spacing="SpacingSize.P8">
     <button type="button" class="btn" @onclick="ButtonLightClick">Light Theme</button>
     <button type="button" class="btn" @onclick="ButtonDarkClick">Dark Theme</button>
 </Stack>
 
 @code {
     [Inject]
-    private ThemeService ThemeService { get; set; } = default!;
+    private ThemeStorageService ThemeService { get; set; } = default!;
 
     private async Task ButtonLightClick(MouseEventArgs args)
     {
-        await ThemeService.SetThemeAsync(ThemeColor.Light);
+        await ThemeService.SetThemeColorAsync(ThemeColor.Light);
     }
 
     private async Task ButtonDarkClick(MouseEventArgs args)
     {
-        await ThemeService.SetThemeAsync(ThemeColor.Dark);
+        await ThemeService.SetThemeColorAsync(ThemeColor.Dark);
     }
 }
