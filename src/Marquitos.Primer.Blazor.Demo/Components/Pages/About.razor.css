@@ -1,0 +1,13 @@
+/* CSS for About component */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Desktop: mantém o tamanho natural */
+@media (min-width: 768px) {
+    img {
+        max-width: none;
+    }
+}
