@@ -1,8 +1,8 @@
 /**
  * Minified by jsDelivr using clean-css v5.3.3.
- * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/faq/colors.css
+ * Original file: /npm/@primer/brand-primitives@0.72.0/lib/design-tokens/css/tokens/functional/components/faq/colors.css
  *
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
  */
-:root{--brand-FAQ-color-tabBg-selected:var(--base-color-scale-gray-1);--brand-FAQ-color-tabLabel-selected:var(--brand-color-text-default);--brand-FAQ-color-heading:var(--brand-color-text-default)}
-/*# sourceMappingURL=/sm/51277d48c97d02286695cee96e36ee80b0c61e3df57eba892f730870c759bc39.map */
+:root{--brand-FAQGroup-buttonIndicator-active:var(--brand-color-accent-primary);--brand-FAQGroup-buttonIndicator-hover:var(--base-color-scale-gray-5);--brand-FAQGroup-buttonIndicator-idle:var(--base-color-scale-gray-3);--brand-FAQ-color-tabLabel-selected:var(--brand-color-text-default);--brand-FAQ-color-heading:var(--brand-color-text-default)}
+/*# sourceMappingURL=/sm/3e4ea872a53c60ccfed9a49739ecdb6b3a1d9bbe36742206a67bd79ff61eadbf.map */

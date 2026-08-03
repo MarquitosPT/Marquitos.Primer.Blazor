@@ -1,8 +1,8 @@
 /**
  * Minified by jsDelivr using clean-css v5.3.3.
- * Original file: /npm/@primer/brand-primitives@0.63.0/lib/design-tokens/css/tokens/functional/components/card/colors-with-modes.css
+ * Original file: /npm/@primer/brand-primitives@0.72.0/lib/design-tokens/css/tokens/functional/components/card/colors-with-modes.css
  *
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
  */
-:root,[data-color-mode=light]{--brand-Card-background-default:var(--brand-color-canvas-default)}[data-color-mode=dark]{--brand-Card-background-default:var(--brand-color-canvas-subtle)}
-/*# sourceMappingURL=/sm/123209c578f527ae9a575f233d4be7694cb734a514e0659e021709438bcabecb.map */
+:root,[data-color-mode=light]{--brand-Card-background-default:var(--brand-color-canvas-default);--brand-Card-background-overlay:rgba(242, 245, 243, 0.2)}[data-color-mode=dark]{--brand-Card-background-default:var(--brand-color-canvas-subtle);--brand-Card-background-overlay:rgba(242, 245, 243, 0.05)}
+/*# sourceMappingURL=/sm/9838ed68c6d49338d67b66924d645325e9462ac3a5fe5817a061457f6ad673a5.map */

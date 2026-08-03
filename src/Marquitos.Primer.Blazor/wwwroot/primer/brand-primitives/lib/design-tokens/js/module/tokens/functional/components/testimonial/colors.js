@@ -1,11 +1,101 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 module.exports = {
   brand: {
     Testimonial: {
+      quote: {
+        color: {
+          default: {
+            value: "var(--brand-color-text-default)",
+            dark: "var(--brand-color-text-default)",
+          },
+          emphasis: {
+            value: "var(--base-color-scale-green-7)",
+            dark: "var(--brand-color-text-emphasized)",
+          },
+        },
+      },
+      quoteMarkBackground: {
+        default: {
+          value: "var(--base-color-scale-gray-0)",
+          dark: "var(--base-color-scale-gray-6)",
+        },
+        blue: {
+          value: "var(--base-color-scale-blue-0)",
+          dark: "var(--base-color-scale-blue-8)",
+        },
+        coral: {
+          value: "var(--base-color-scale-coral-0)",
+          dark: "var(--base-color-scale-coral-8)",
+        },
+        green: {
+          value: "var(--base-color-scale-green-0)",
+          dark: "var(--base-color-scale-green-8)",
+        },
+        gray: {
+          value: "var(--base-color-scale-gray-0)",
+          dark: "var(--base-color-scale-gray-6)",
+        },
+        indigo: {
+          value: "var(--base-color-scale-indigo-0)",
+          dark: "var(--base-color-scale-indigo-8)",
+        },
+        lemon: {
+          value: "var(--base-color-scale-lemon-0)",
+          dark: "var(--base-color-scale-lemon-8)",
+        },
+        lime: {
+          value: "var(--base-color-scale-lime-0)",
+          dark: "var(--base-color-scale-lime-8)",
+        },
+        orange: {
+          value: "var(--base-color-scale-orange-0)",
+          dark: "var(--base-color-scale-orange-8)",
+        },
+        pink: {
+          value: "var(--base-color-scale-pink-0)",
+          dark: "var(--base-color-scale-pink-8)",
+        },
+        purple: {
+          value: "var(--base-color-scale-purple-0)",
+          dark: "var(--base-color-scale-purple-8)",
+        },
+        red: {
+          value: "var(--base-color-scale-red-0)",
+          dark: "var(--base-color-scale-red-8)",
+        },
+        teal: {
+          value: "var(--base-color-scale-teal-0)",
+          dark: "var(--base-color-scale-teal-8)",
+        },
+        yellow: {
+          value: "var(--base-color-scale-yellow-0)",
+          dark: "var(--base-color-scale-yellow-8)",
+        },
+        "blue-purple": {
+          value: "var(--base-color-scale-blue-0)",
+          dark: "var(--base-color-scale-blue-8)",
+        },
+        "green-blue": {
+          value: "var(--base-color-scale-green-0)",
+          dark: "var(--base-color-scale-green-8)",
+        },
+        "pink-blue": {
+          value: "var(--base-color-scale-pink-0)",
+          dark: "var(--base-color-scale-pink-8)",
+        },
+        "purple-red": {
+          value: "var(--base-color-scale-purple-0)",
+          dark: "var(--base-color-scale-purple-8)",
+        },
+        "red-orange": {
+          value: "var(--base-color-scale-red-0)",
+          dark: "var(--base-color-scale-red-8)",
+        },
+      },
       borderMask: {
         default: {
           value: "linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))",
@@ -40,12 +130,12 @@ module.exports = {
           dark: "var(--base-color-scale-coral-2)",
         },
         green: {
-          value: "var(--base-color-scale-green-5)",
+          value: "var(--base-color-scale-green-6)",
           dark: "var(--base-color-scale-green-2)",
         },
         "green-blue": {
           start: {
-            value: "var(--base-color-scale-green-5)",
+            value: "var(--base-color-scale-green-6)",
             dark: "var(--base-color-scale-green-2)",
           },
           end: {

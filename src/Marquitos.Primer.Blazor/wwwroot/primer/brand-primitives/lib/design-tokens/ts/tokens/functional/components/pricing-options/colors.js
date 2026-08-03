@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
@@ -22,6 +22,11 @@ module.exports = {
             color: "var(--brand-color-text-default)",
           },
         },
+      },
+      actionsMessage: {
+        bgColor: "color-mix(in srgb, var(--base-color-scale-blue-4) 10%, transparent)",
+        borderColor: "color-mix(in srgb, var(--base-color-scale-blue-6) 20%, transparent)",
+        accentColor: "var(--base-color-scale-blue-5)",
       },
     },
   },

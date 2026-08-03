@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
       item: {
         accent: {
           bgColor: {
-            rest: "var(--base-color-scale-green-5)",
+            rest: "var(--base-color-scale-green-6)",
           },
           fgColor: {
             rest: "var(--base-color-scale-white-0)",

@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 :root {
-  --brand-Link-color-accent: var(--base-color-scale-blue-6);
+  --brand-Link-color-accent: var(--brand-color-text-link-rest);
   --brand-Link-color-default: var(--brand-color-text-default);
 }

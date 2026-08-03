@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
@@ -8,8 +8,8 @@ module.exports = {
     Card: {
       maxWidth: "26.25rem",
       animation: {
-        duration: "600ms",
-        easing: "var(--brand-animation-easing-default)",
+        duration: "400ms",
+        easing: "cubic-bezier(0.01, 0.73, 0.08, 0.93)",
       },
     },
   },

@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 :root,
 [data-color-mode="light"] {
-  --brand-Icon-background-default: var(--base-color-scale-gray-0);
+  --brand-Icon-background-default: var(--brand-Icon-background-green);
   --brand-Icon-background-blue: var(--base-color-scale-blue-0);
   --brand-Icon-background-coral: var(--base-color-scale-coral-0);
   --brand-Icon-background-green: var(--base-color-scale-green-0);
@@ -19,10 +19,10 @@
   --brand-Icon-background-red: var(--base-color-scale-red-0);
   --brand-Icon-background-teal: var(--base-color-scale-teal-0);
   --brand-Icon-background-yellow: var(--base-color-scale-yellow-0);
-  --brand-Icon-color-default: var(--brand-color-text-default);
+  --brand-Icon-color-default: var(--brand-Icon-color-green);
   --brand-Icon-color-blue: var(--base-color-scale-blue-5);
   --brand-Icon-color-coral: var(--base-color-scale-coral-5);
-  --brand-Icon-color-green: var(--base-color-scale-green-5);
+  --brand-Icon-color-green: var(--base-color-scale-green-6);
   --brand-Icon-color-gray: var(--base-color-scale-gray-6);
   --brand-Icon-color-indigo: var(--base-color-scale-indigo-5);
   --brand-Icon-color-lemon: var(--base-color-scale-lemon-5);
@@ -36,7 +36,7 @@
 }
 
 [data-color-mode="dark"] {
-  --brand-Icon-background-default: var(--base-color-scale-gray-6);
+  --brand-Icon-background-default: var(--brand-Icon-background-green);
   --brand-Icon-background-blue: var(--base-color-scale-blue-8);
   --brand-Icon-background-coral: var(--base-color-scale-coral-8);
   --brand-Icon-background-green: var(--base-color-scale-green-8);
@@ -50,7 +50,7 @@
   --brand-Icon-background-red: var(--base-color-scale-red-8);
   --brand-Icon-background-teal: var(--base-color-scale-teal-8);
   --brand-Icon-background-yellow: var(--base-color-scale-yellow-8);
-  --brand-Icon-color-default: var(--brand-color-text-default);
+  --brand-Icon-color-default: var(--brand-Icon-color-green);
   --brand-Icon-color-blue: var(--base-color-scale-blue-2);
   --brand-Icon-color-coral: var(--base-color-scale-coral-2);
   --brand-Icon-color-green: var(--base-color-scale-green-2);

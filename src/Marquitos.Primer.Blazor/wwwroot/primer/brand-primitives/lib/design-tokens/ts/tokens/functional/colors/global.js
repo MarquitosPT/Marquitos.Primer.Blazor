@@ -1,49 +1,64 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
   brand: {
     color: {
       success: {
-        fg: "var(--base-color-scale-green-5)",
-        emphasis: "var(--base-color-scale-green-4)",
-        muted: "#4bc36b99",
-        subtle: "var(--base-color-scale-green-0)",
+        fg: "var(--base-color-scale-green-6)",
+        emphasis: "var(--base-color-scale-green-5)",
+        muted: "#8CF2A699",
+        subtle: "var(--base-color-scale-green-1)",
       },
-      error: {
+      danger: {
         fg: "var(--base-color-scale-red-5)",
         emphasis: "var(--base-color-scale-red-5)",
-        muted: "#ff878599",
+        muted: "#FFABA899",
         subtle: "var(--base-color-scale-red-0)",
       },
+      error: {
+        fg: "var(--brand-color-danger-fg)",
+        emphasis: "var(--brand-color-danger-emphasis)",
+        muted: "var(--brand-color-danger-muted)",
+        subtle: "var(--brand-color-danger-subtle)",
+      },
       accent: {
-        primary: "var(--base-color-scale-green-5)",
+        primary: "var(--base-color-scale-green-7)",
         secondary: "var(--base-color-scale-yellow-5)",
       },
       text: {
-        default: "var(--base-color-scale-gray-9)",
-        muted: "var(--base-color-scale-gray-6)",
-        subtle: "var(--base-color-scale-gray-5)",
+        default: "var(--base-color-scale-black-0)",
+        muted: "var(--base-color-scale-gray-7)",
+        subtle: "var(--brand-color-text-muted)",
         onEmphasis: "var(--base-color-scale-white-0)",
+        emphasized: "var(--base-color-scale-green-6)",
+        link: {
+          rest: "var(--base-color-scale-blue-6)",
+          pressed: "var(--base-color-scale-blue-8)",
+        },
+        danger: "#CF222E",
+        error: "var(--brand-color-text-danger)",
       },
       neutral: {
-        emphasisPlus: "var(--base-color-scale-gray-9)",
-        emphasis: "var(--base-color-scale-gray-5)",
-        muted: "#b7bfc8fe",
-        subtle: "#e9edf1fe",
+        emphasisPlus: "var(--base-color-scale-gray-8)",
+        emphasis: "var(--base-color-scale-gray-6)",
+        muted: "#C4CCC6fe",
+        subtle: "#E4EBE6fe",
       },
       canvas: {
         default: "var(--base-color-scale-white-0)",
+        invert: "var(--base-color-scale-black-0)",
         overlay: "var(--base-color-scale-white-0)",
         inset: "var(--base-color-scale-gray-0)",
         subtle: "var(--base-color-scale-gray-0)",
+        muted: "#F9FBF9",
       },
       border: {
-        default: "var(--base-color-scale-gray-3)",
-        muted: "#d3d9dffe",
-        subtle: "#e9edf1fe",
+        default: "var(--base-color-scale-gray-4)",
+        muted: "var(--base-color-scale-gray-1)",
+        subtle: "var(--base-color-scale-gray-2)",
       },
       focus: "var(--base-color-scale-blue-5)",
     },

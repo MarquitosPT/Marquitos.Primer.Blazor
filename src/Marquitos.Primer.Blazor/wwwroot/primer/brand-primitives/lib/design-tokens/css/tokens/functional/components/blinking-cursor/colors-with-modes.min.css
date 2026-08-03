@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.72.0/lib/design-tokens/css/tokens/functional/components/blinking-cursor/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-blinking-cursor-fgColor:var(--brand-color-accent-primary)}[data-color-mode=dark]{--brand-blinking-cursor-fgColor:var(--base-color-scale-green-3)}
+/*# sourceMappingURL=/sm/b44b39a84d42419a0c1434d54c73e8af0dec0ffe294661836196ddbdfe2ed937.map */

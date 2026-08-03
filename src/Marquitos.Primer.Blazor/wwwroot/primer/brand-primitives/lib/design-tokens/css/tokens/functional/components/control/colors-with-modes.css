@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 :root,
@@ -10,21 +10,37 @@
   --brand-control-color-canvas-disabled: var(--base-color-scale-gray-1);
   --brand-control-color-fg-default: var(--brand-color-text-default);
   --brand-control-color-fg-disabled: var(--base-color-scale-gray-4);
+  --brand-control-color-focus: var(--base-color-scale-blue-6);
   --brand-control-checkbox-bg-default: var(--base-color-scale-white-0);
-  --brand-control-checkbox-bg-checked: var(--base-color-scale-black-0);
-  --brand-control-checkbox-bg-indeterminate: var(--base-color-scale-black-0);
-  --brand-control-checkbox-bg-disabled: var(--base-color-scale-gray-1);
+  --brand-control-checkbox-bg-hover: var(--brand-color-canvas-subtle);
+  --brand-control-checkbox-bg-checked: var(--base-color-scale-green-6);
+  --brand-control-checkbox-bg-checked-hover: color-mix(in srgb, var(--brand-color-text-emphasized), #000 26%);
+  --brand-control-checkbox-bg-indeterminate: var(--base-color-scale-green-6);
+  --brand-control-checkbox-bg-indeterminate-hover: color-mix(in srgb, var(--brand-color-text-emphasized), #000 26%);
+  --brand-control-checkbox-bg-checked-disabled: color-mix(in srgb, var(--base-color-scale-green-6), #fff 65%);
   --brand-control-checkbox-fg-checked: var(--base-color-scale-white-0);
+  --brand-control-checkbox-fg-checked-disabled: var(--base-color-scale-white-0);
   --brand-control-checkbox-border-default: var(--base-color-scale-gray-4);
-  --brand-control-checkbox-border-checked: var(--base-color-scale-black-0);
-  --brand-control-checkbox-border-indeterminate: var(--base-color-scale-black-0);
-  --brand-control-checkbox-border-disabled: var(--base-color-scale-gray-2);
+  --brand-control-checkbox-border-hover: var(--base-color-scale-gray-4);
+  --brand-control-checkbox-border-checked: var(--base-color-scale-green-6);
+  --brand-control-checkbox-border-checked-hover: var(--brand-color-text-emphasized);
+  --brand-control-checkbox-border-indeterminate: var(--base-color-scale-green-6);
+  --brand-control-checkbox-border-indeterminate-hover: var(--brand-color-text-emphasized);
+  --brand-control-checkbox-border-checked-disabled: color-mix(in srgb, var(--base-color-scale-green-6), #fff 65%);
+  --brand-control-checkbox-border-unchecked-disabled: var(--base-color-scale-gray-1);
   --brand-control-radio-bg-default: var(--base-color-scale-white-0);
+  --brand-control-radio-bg-hover: var(--brand-color-canvas-subtle);
   --brand-control-radio-bg-checked: var(--base-color-scale-white-0);
-  --brand-control-radio-bg-disabled: var(--base-color-scale-gray-1);
+  --brand-control-radio-bg-checked-hover: var(--brand-color-canvas-subtle);
+  --brand-control-radio-bg-disabled: var(--brand-color-canvas-default);
   --brand-control-radio-border-default: var(--brand-control-color-border-default);
-  --brand-control-radio-border-checked: var(--base-color-scale-black-0);
+  --brand-control-radio-border-hover: var(--base-color-scale-gray-4);
+  --brand-control-radio-border-checked: var(--brand-control-color-border-default);
+  --brand-control-radio-border-checked-hover: var(--brand-control-color-border-default);
+  --brand-control-radio-border-disabled: var(--base-color-scale-gray-4);
   --brand-control-radio-dot-default: var(--base-color-scale-black-0);
+  --brand-control-radio-dot-checked: var(--base-color-scale-green-6);
+  --brand-control-radio-dot-checked-hover: color-mix(in srgb, var(--brand-color-text-emphasized), #000 26%);
 }
 
 [data-color-mode="dark"] {
@@ -33,19 +49,35 @@
   --brand-control-color-canvas-disabled: var(--base-color-scale-gray-8);
   --brand-control-color-fg-default: var(--brand-color-text-default);
   --brand-control-color-fg-disabled: var(--base-color-scale-gray-5);
+  --brand-control-color-focus: var(--base-color-scale-blue-2);
   --brand-control-checkbox-bg-default: var(--base-color-scale-gray-7);
-  --brand-control-checkbox-bg-checked: var(--base-color-scale-white-0);
-  --brand-control-checkbox-bg-indeterminate: var(--base-color-scale-white-0);
-  --brand-control-checkbox-bg-disabled: var(--base-color-scale-gray-4);
-  --brand-control-checkbox-fg-checked: var(--base-color-scale-black-0);
+  --brand-control-checkbox-bg-hover: var(--brand-color-canvas-subtle);
+  --brand-control-checkbox-bg-checked: var(--base-color-scale-green-5);
+  --brand-control-checkbox-bg-checked-hover: #309a4d;
+  --brand-control-checkbox-bg-indeterminate: var(--base-color-scale-green-5);
+  --brand-control-checkbox-bg-indeterminate-hover: #309a4d;
+  --brand-control-checkbox-bg-checked-disabled: color-mix(in srgb, var(--base-color-scale-green-6), #000 35%);
+  --brand-control-checkbox-fg-checked: var(--base-color-scale-white-0);
+  --brand-control-checkbox-fg-checked-disabled: color-mix(in srgb, var(--base-color-scale-green-5), #000 20%);
   --brand-control-checkbox-border-default: var(--base-color-scale-gray-4);
-  --brand-control-checkbox-border-checked: var(--base-color-scale-white-0);
-  --brand-control-checkbox-border-indeterminate: var(--base-color-scale-white-0);
-  --brand-control-checkbox-border-disabled: var(--base-color-scale-gray-4);
+  --brand-control-checkbox-border-hover: var(--base-color-scale-gray-5);
+  --brand-control-checkbox-border-checked: #077726;
+  --brand-control-checkbox-border-checked-hover: rgba(0, 0, 0, 0.12);
+  --brand-control-checkbox-border-indeterminate: #077726;
+  --brand-control-checkbox-border-indeterminate-hover: rgba(0, 0, 0, 0.12);
+  --brand-control-checkbox-border-checked-disabled: color-mix(in srgb, var(--base-color-scale-green-6), #000 35%);
+  --brand-control-checkbox-border-unchecked-disabled: var(--base-color-scale-gray-5);
   --brand-control-radio-bg-default: var(--base-color-scale-black-0);
+  --brand-control-radio-bg-hover: var(--brand-color-canvas-subtle);
   --brand-control-radio-bg-checked: var(--base-color-scale-black-0);
-  --brand-control-radio-bg-disabled: var(--base-color-scale-gray-4);
-  --brand-control-radio-border-default: var(--base-color-scale-white-0);
-  --brand-control-radio-border-checked: var(--base-color-scale-white-0);
+  --brand-control-radio-bg-checked-hover: var(--brand-color-canvas-subtle);
+  --brand-control-radio-bg-disabled: var(--brand-color-canvas-default);
+  --brand-control-radio-border-default: var(--base-color-scale-gray-4);
+  --brand-control-radio-border-hover: var(--base-color-scale-gray-5);
+  --brand-control-radio-border-checked: var(--base-color-scale-gray-4);
+  --brand-control-radio-border-checked-hover: var(--base-color-scale-gray-4);
+  --brand-control-radio-border-disabled: var(--base-color-scale-gray-5);
   --brand-control-radio-dot-default: var(--base-color-scale-white-0);
+  --brand-control-radio-dot-checked: var(--base-color-scale-green-5);
+  --brand-control-radio-dot-checked-hover: #309a4d;
 }

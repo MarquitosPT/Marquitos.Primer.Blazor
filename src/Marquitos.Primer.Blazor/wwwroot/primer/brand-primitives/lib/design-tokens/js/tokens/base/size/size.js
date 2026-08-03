@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 export const BaseSize2 = "0.125rem";
@@ -17,8 +17,10 @@ export const BaseSize36 = "2.25rem";
 export const BaseSize40 = "2.5rem";
 export const BaseSize44 = "2.75rem";
 export const BaseSize48 = "3rem";
+export const BaseSize60 = "3.75rem";
 export const BaseSize64 = "4rem";
 export const BaseSize80 = "5rem";
+export const BaseSize88 = "5.5rem";
 export const BaseSize96 = "6rem";
 export const BaseSize112 = "7rem";
 export const BaseSize128 = "8rem";

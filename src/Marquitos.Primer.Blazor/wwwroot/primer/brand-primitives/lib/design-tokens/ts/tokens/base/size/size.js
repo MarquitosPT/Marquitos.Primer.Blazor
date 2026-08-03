@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
@@ -20,8 +20,10 @@ module.exports = {
       "40": "2.5rem",
       "44": "2.75rem",
       "48": "3rem",
+      "60": "3.75rem",
       "64": "4rem",
       "80": "5rem",
+      "88": "5.5rem",
       "96": "6rem",
       "112": "7rem",
       "128": "8rem",

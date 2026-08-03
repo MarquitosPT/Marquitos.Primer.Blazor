@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 module.exports = {
@@ -17,11 +17,21 @@ module.exports = {
             dark: "var(--brand-color-text-default)",
           },
         },
-        tabBg: {
-          selected: {
-            value: "var(--base-color-scale-gray-1)",
-            dark: "var(--base-color-scale-gray-7)",
-          },
+      },
+    },
+    FAQGroup: {
+      buttonIndicator: {
+        idle: {
+          value: "var(--base-color-scale-gray-3)",
+          dark: "var(--base-color-scale-gray-7)",
+        },
+        hover: {
+          value: "var(--base-color-scale-gray-5)",
+          dark: "var(--base-color-scale-gray-5)",
+        },
+        active: {
+          value: "var(--brand-color-accent-primary)",
+          dark: "var(--brand-color-accent-primary)",
         },
       },
     },

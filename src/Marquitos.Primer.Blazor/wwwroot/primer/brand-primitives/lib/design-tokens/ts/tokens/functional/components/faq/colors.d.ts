@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 
@@ -12,10 +12,14 @@ declare const tokens: {
         "heading": string,
         "tabLabel": {
           "selected": string
-        },
-        "tabBg": {
-          "selected": string
         }
+      }
+    },
+    "FAQGroup": {
+      "buttonIndicator": {
+        "idle": string,
+        "hover": string,
+        "active": string
       }
     }
   }

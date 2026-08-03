@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 :root {
@@ -21,8 +21,8 @@
   --brand-Testimonial-quoteMarkColor-indigo: var(--base-color-scale-indigo-5);
   --brand-Testimonial-quoteMarkColor-gray: var(--base-color-scale-gray-5);
   --brand-Testimonial-quoteMarkColor-green-blue-end: var(--base-color-scale-blue-5);
-  --brand-Testimonial-quoteMarkColor-green-blue-start: var(--base-color-scale-green-5);
-  --brand-Testimonial-quoteMarkColor-green: var(--base-color-scale-green-5);
+  --brand-Testimonial-quoteMarkColor-green-blue-start: var(--base-color-scale-green-6);
+  --brand-Testimonial-quoteMarkColor-green: var(--base-color-scale-green-6);
   --brand-Testimonial-quoteMarkColor-coral: var(--base-color-scale-coral-5);
   --brand-Testimonial-quoteMarkColor-blue-purple-end: var(--base-color-scale-purple-5);
   --brand-Testimonial-quoteMarkColor-blue-purple-start: var(--base-color-scale-blue-5);
@@ -30,4 +30,25 @@
   --brand-Testimonial-quoteMarkColor-default: var(--brand-color-text-default);
   --brand-Testimonial-borderMask-subtle: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
   --brand-Testimonial-borderMask-default: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+  --brand-Testimonial-quoteMarkBackground-red-orange: var(--base-color-scale-red-0);
+  --brand-Testimonial-quoteMarkBackground-purple-red: var(--base-color-scale-purple-0);
+  --brand-Testimonial-quoteMarkBackground-pink-blue: var(--base-color-scale-pink-0);
+  --brand-Testimonial-quoteMarkBackground-green-blue: var(--base-color-scale-green-0);
+  --brand-Testimonial-quoteMarkBackground-blue-purple: var(--base-color-scale-blue-0);
+  --brand-Testimonial-quoteMarkBackground-yellow: var(--base-color-scale-yellow-0);
+  --brand-Testimonial-quoteMarkBackground-teal: var(--base-color-scale-teal-0);
+  --brand-Testimonial-quoteMarkBackground-red: var(--base-color-scale-red-0);
+  --brand-Testimonial-quoteMarkBackground-purple: var(--base-color-scale-purple-0);
+  --brand-Testimonial-quoteMarkBackground-pink: var(--base-color-scale-pink-0);
+  --brand-Testimonial-quoteMarkBackground-orange: var(--base-color-scale-orange-0);
+  --brand-Testimonial-quoteMarkBackground-lime: var(--base-color-scale-lime-0);
+  --brand-Testimonial-quoteMarkBackground-lemon: var(--base-color-scale-lemon-0);
+  --brand-Testimonial-quoteMarkBackground-indigo: var(--base-color-scale-indigo-0);
+  --brand-Testimonial-quoteMarkBackground-gray: var(--base-color-scale-gray-0);
+  --brand-Testimonial-quoteMarkBackground-green: var(--base-color-scale-green-0);
+  --brand-Testimonial-quoteMarkBackground-coral: var(--base-color-scale-coral-0);
+  --brand-Testimonial-quoteMarkBackground-blue: var(--base-color-scale-blue-0);
+  --brand-Testimonial-quoteMarkBackground-default: var(--base-color-scale-gray-0);
+  --brand-Testimonial-quote-color-emphasis: var(--base-color-scale-green-7);
+  --brand-Testimonial-quote-color-default: var(--brand-color-text-default);
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 export const BrandLabelColorDefault = "var(--brand-color-text-default)";
@@ -8,12 +8,12 @@ export const BrandLabelColorBlue = "var(--base-color-scale-blue-5)";
 export const BrandLabelColorBluePurpleStart = "var(--base-color-scale-blue-5)";
 export const BrandLabelColorBluePurpleEnd = "var(--base-color-scale-purple-5)";
 export const BrandLabelColorCoral = "var(--base-color-scale-coral-5)";
-export const BrandLabelColorGreen = "var(--base-color-scale-green-5)";
-export const BrandLabelColorGreenBlueStart = "var(--base-color-scale-green-5)";
+export const BrandLabelColorGreen = "var(--base-color-scale-green-6)";
+export const BrandLabelColorGreenBlueStart = "var(--base-color-scale-green-6)";
 export const BrandLabelColorGreenBlueEnd = "var(--base-color-scale-blue-5)";
 export const BrandLabelColorGreenBluePurple1 = "#000AFF";
 export const BrandLabelColorGreenBluePurple2 = "#096BDE";
-export const BrandLabelColorGreenBluePurple3 = "var(--base-color-scale-green-5)";
+export const BrandLabelColorGreenBluePurple3 = "var(--base-color-scale-green-6)";
 export const BrandLabelColorGreenBluePurple4 = "#8250DF";
 export const BrandLabelColorGray = "var(--base-color-scale-gray-5)";
 export const BrandLabelColorIndigo = "var(--base-color-scale-indigo-5)";

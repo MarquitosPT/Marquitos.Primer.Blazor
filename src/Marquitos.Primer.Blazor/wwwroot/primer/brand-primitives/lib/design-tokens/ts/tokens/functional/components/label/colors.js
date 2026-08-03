@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
@@ -14,15 +14,15 @@ module.exports = {
           end: "var(--base-color-scale-purple-5)",
         },
         coral: "var(--base-color-scale-coral-5)",
-        green: "var(--base-color-scale-green-5)",
+        green: "var(--base-color-scale-green-6)",
         "green-blue": {
-          start: "var(--base-color-scale-green-5)",
+          start: "var(--base-color-scale-green-6)",
           end: "var(--base-color-scale-blue-5)",
         },
         "green-blue-purple": {
           "1": "#000AFF",
           "2": "#096BDE",
-          "3": "var(--base-color-scale-green-5)",
+          "3": "var(--base-color-scale-green-6)",
           "4": "#8250DF",
         },
         gray: "var(--base-color-scale-gray-5)",

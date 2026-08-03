@@ -1,0 +1,13 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
+ */
+
+:root,
+[data-color-mode="light"] {
+  --brand-blinking-cursor-fgColor: var(--brand-color-accent-primary);
+}
+
+[data-color-mode="dark"] {
+  --brand-blinking-cursor-fgColor: var(--base-color-scale-green-3);
+}

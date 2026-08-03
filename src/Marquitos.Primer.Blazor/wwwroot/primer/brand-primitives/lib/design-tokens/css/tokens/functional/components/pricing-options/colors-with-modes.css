@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 :root,
@@ -10,6 +10,9 @@
   --brand-PricingOptions-item-bgColor-gradient-start: var(--brand-color-canvas-subtle);
   --brand-PricingOptions-item-bgColor-gradient-end: var(--brand-color-canvas-default);
   --brand-PricingOptions-featureList-group-heading-color: var(--brand-color-text-default);
+  --brand-PricingOptions-actionsMessage-bgColor: color-mix(in srgb, var(--base-color-scale-blue-4) 10%, transparent);
+  --brand-PricingOptions-actionsMessage-borderColor: color-mix(in srgb, var(--base-color-scale-blue-6) 20%, transparent);
+  --brand-PricingOptions-actionsMessage-accentColor: var(--base-color-scale-blue-5);
 }
 
 [data-color-mode="dark"] {
@@ -18,4 +21,7 @@
   --brand-PricingOptions-item-bgColor-gradient-start: var(--brand-color-canvas-subtle);
   --brand-PricingOptions-item-bgColor-gradient-end: var(--brand-color-canvas-default);
   --brand-PricingOptions-featureList-group-heading-color: var(--brand-color-text-default);
+  --brand-PricingOptions-actionsMessage-bgColor: #0c1c26;
+  --brand-PricingOptions-actionsMessage-borderColor: #0e4678;
+  --brand-PricingOptions-actionsMessage-accentColor: #1095ff;
 }

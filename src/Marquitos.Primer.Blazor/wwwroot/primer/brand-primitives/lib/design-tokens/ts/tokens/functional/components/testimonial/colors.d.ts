@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 
@@ -8,6 +8,33 @@
 declare const tokens: {
   "brand": {
     "Testimonial": {
+      "quote": {
+        "color": {
+          "default": string,
+          "emphasis": string
+        }
+      },
+      "quoteMarkBackground": {
+        "default": string,
+        "blue": string,
+        "coral": string,
+        "green": string,
+        "gray": string,
+        "indigo": string,
+        "lemon": string,
+        "lime": string,
+        "orange": string,
+        "pink": string,
+        "purple": string,
+        "red": string,
+        "teal": string,
+        "yellow": string,
+        "blue-purple": string,
+        "green-blue": string,
+        "pink-blue": string,
+        "purple-red": string,
+        "red-orange": string
+      },
       "borderMask": {
         "default": string,
         "subtle": string

@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-css@0.72.0/components/component-helpers/shared.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+.gridline{position:relative}.gridline::after,.gridline::before{content:'';position:absolute;left:0;right:0;height:0;border-top:var(--brand-borderWidth-thin) solid;-o-border-image:linear-gradient(var(--brand-color-border-muted),var(--brand-color-border-muted)) 1;border-image:linear-gradient(var(--brand-color-border-muted),var(--brand-color-border-muted)) 1;border-image-outset:0 100vw;z-index:1;pointer-events:none}.gridline::before{top:0}.gridline::after{bottom:0}
+/*# sourceMappingURL=/sm/9ab7bfdeba1c8bba02e94b98fa9d1af3cbf0884eccbe651427c2773780df2a94.map */

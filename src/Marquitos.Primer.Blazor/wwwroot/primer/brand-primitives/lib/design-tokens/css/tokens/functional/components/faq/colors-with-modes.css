@@ -1,17 +1,21 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 :root,
 [data-color-mode="light"] {
   --brand-FAQ-color-heading: var(--brand-color-text-default);
   --brand-FAQ-color-tabLabel-selected: var(--brand-color-text-default);
-  --brand-FAQ-color-tabBg-selected: var(--base-color-scale-gray-1);
+  --brand-FAQGroup-buttonIndicator-idle: var(--base-color-scale-gray-3);
+  --brand-FAQGroup-buttonIndicator-hover: var(--base-color-scale-gray-5);
+  --brand-FAQGroup-buttonIndicator-active: var(--brand-color-accent-primary);
 }
 
 [data-color-mode="dark"] {
   --brand-FAQ-color-heading: var(--brand-color-text-default);
   --brand-FAQ-color-tabLabel-selected: var(--brand-color-text-default);
-  --brand-FAQ-color-tabBg-selected: var(--base-color-scale-gray-7);
+  --brand-FAQGroup-buttonIndicator-idle: var(--base-color-scale-gray-7);
+  --brand-FAQGroup-buttonIndicator-hover: var(--base-color-scale-gray-5);
+  --brand-FAQGroup-buttonIndicator-active: var(--brand-color-accent-primary);
 }

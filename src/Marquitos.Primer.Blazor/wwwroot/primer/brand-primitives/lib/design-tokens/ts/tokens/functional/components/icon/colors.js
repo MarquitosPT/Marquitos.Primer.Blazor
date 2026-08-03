@@ -1,13 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
   brand: {
     Icon: {
       background: {
-        default: "var(--base-color-scale-gray-0)",
+        default: "var(--brand-Icon-background-green)",
         blue: "var(--base-color-scale-blue-0)",
         coral: "var(--base-color-scale-coral-0)",
         green: "var(--base-color-scale-green-0)",
@@ -23,10 +23,10 @@ module.exports = {
         yellow: "var(--base-color-scale-yellow-0)",
       },
       color: {
-        default: "var(--brand-color-text-default)",
+        default: "var(--brand-Icon-color-green)",
         blue: "var(--base-color-scale-blue-5)",
         coral: "var(--base-color-scale-coral-5)",
-        green: "var(--base-color-scale-green-5)",
+        green: "var(--base-color-scale-green-6)",
         gray: "var(--base-color-scale-gray-6)",
         indigo: "var(--base-color-scale-indigo-5)",
         lemon: "var(--base-color-scale-lemon-5)",

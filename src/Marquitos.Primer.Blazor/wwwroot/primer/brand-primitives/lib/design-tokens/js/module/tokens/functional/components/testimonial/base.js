@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 module.exports = {
@@ -9,10 +9,10 @@ module.exports = {
       quote: {
         fontSize: {
           default: "var(--brand-text-size-400)",
-          large: "var(--brand-text-size-600)",
+          large: "var(--brand-text-size-500)",
         },
         fontWeight: {
-          default: "var(--brand-heading-weight-600)",
+          default: "var(--brand-heading-weight-1000)",
           large: "var(--brand-heading-weight-600)",
         },
         letterSpacing: {

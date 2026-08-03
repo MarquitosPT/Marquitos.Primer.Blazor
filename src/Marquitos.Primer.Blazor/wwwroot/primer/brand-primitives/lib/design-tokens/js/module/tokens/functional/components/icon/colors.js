@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 module.exports = {
@@ -8,8 +8,8 @@ module.exports = {
     Icon: {
       background: {
         default: {
-          value: "var(--base-color-scale-gray-0)",
-          dark: "var(--base-color-scale-gray-6)",
+          value: "var(--brand-Icon-background-green)",
+          dark: "var(--brand-Icon-background-green)",
         },
         blue: {
           value: "var(--base-color-scale-blue-0)",
@@ -66,8 +66,8 @@ module.exports = {
       },
       color: {
         default: {
-          value: "var(--brand-color-text-default)",
-          dark: "var(--brand-color-text-default)",
+          value: "var(--brand-Icon-color-green)",
+          dark: "var(--brand-Icon-color-green)",
         },
         blue: {
           value: "var(--base-color-scale-blue-5)",
@@ -78,7 +78,7 @@ module.exports = {
           dark: "var(--base-color-scale-coral-2)",
         },
         green: {
-          value: "var(--base-color-scale-green-5)",
+          value: "var(--base-color-scale-green-6)",
           dark: "var(--base-color-scale-green-2)",
         },
         gray: {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 :root,
@@ -12,8 +12,8 @@
   --brand-Accordion-toggle-color-blue-purple-start: var(--base-color-scale-blue-5);
   --brand-Accordion-toggle-color-blue-purple-end: var(--base-color-scale-purple-5);
   --brand-Accordion-toggle-color-coral: var(--base-color-scale-coral-5);
-  --brand-Accordion-toggle-color-green: var(--base-color-scale-green-5);
-  --brand-Accordion-toggle-color-green-blue-start: var(--base-color-scale-green-5);
+  --brand-Accordion-toggle-color-green: var(--base-color-scale-green-6);
+  --brand-Accordion-toggle-color-green-blue-start: var(--base-color-scale-green-6);
   --brand-Accordion-toggle-color-green-blue-end: var(--base-color-scale-blue-5);
   --brand-Accordion-toggle-color-gray: var(--base-color-scale-gray-5);
   --brand-Accordion-toggle-color-indigo: var(--base-color-scale-indigo-5);
@@ -31,8 +31,10 @@
   --brand-Accordion-toggle-color-red-orange-end: var(--base-color-scale-orange-5);
   --brand-Accordion-toggle-color-teal: var(--base-color-scale-teal-5);
   --brand-Accordion-toggle-color-yellow: var(--base-color-scale-yellow-5);
-  --brand-Accordion-border-color-default: var(--brand-color-border-default);
-  --brand-Accordion-border-color-emphasis: var(--base-color-scale-black-0);
+  --brand-Accordion-border-color-default: var(--brand-color-border-muted);
+  --brand-Accordion-indicator-idle: var(--base-color-scale-gray-3);
+  --brand-Accordion-indicator-hover: var(--base-color-scale-gray-5);
+  --brand-Accordion-indicator-active: var(--brand-color-accent-primary);
 }
 
 [data-color-mode="dark"] {
@@ -62,6 +64,8 @@
   --brand-Accordion-toggle-color-red-orange-end: var(--base-color-scale-orange-2);
   --brand-Accordion-toggle-color-teal: var(--base-color-scale-teal-2);
   --brand-Accordion-toggle-color-yellow: var(--base-color-scale-yellow-2);
-  --brand-Accordion-border-color-default: var(--base-color-scale-gray-5);
-  --brand-Accordion-border-color-emphasis: var(--base-color-scale-white-0);
+  --brand-Accordion-border-color-default: var(--brand-color-border-muted);
+  --brand-Accordion-indicator-idle: var(--base-color-scale-gray-7);
+  --brand-Accordion-indicator-hover: var(--base-color-scale-gray-5);
+  --brand-Accordion-indicator-active: var(--brand-color-accent-primary);
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 module.exports = {
@@ -36,6 +36,20 @@ module.exports = {
               dark: "var(--brand-color-text-default)",
             },
           },
+        },
+      },
+      actionsMessage: {
+        bgColor: {
+          value: "color-mix(in srgb, var(--base-color-scale-blue-4) 10%, transparent)",
+          dark: "#0C1C26",
+        },
+        borderColor: {
+          value: "color-mix(in srgb, var(--base-color-scale-blue-6) 20%, transparent)",
+          dark: "#0E4678",
+        },
+        accentColor: {
+          value: "var(--base-color-scale-blue-5)",
+          dark: "#1095FF",
         },
       },
     },

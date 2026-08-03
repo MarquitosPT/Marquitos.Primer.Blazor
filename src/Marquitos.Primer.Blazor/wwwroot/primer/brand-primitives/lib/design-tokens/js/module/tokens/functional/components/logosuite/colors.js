@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 module.exports = {
@@ -9,11 +9,11 @@ module.exports = {
       color: {
         control: {
           rest: {
-            value: "var(--base-color-scale-gray-1)",
-            dark: "#4d4e6a",
+            value: "var(--brand-color-canvas-muted)",
+            dark: "var(--brand-color-canvas-muted)",
           },
           hover: {
-            value: "var(--base-color-scale-gray-2)",
+            value: "var(--base-color-scale-gray-1)",
             dark: "#5a5b7c",
           },
         },

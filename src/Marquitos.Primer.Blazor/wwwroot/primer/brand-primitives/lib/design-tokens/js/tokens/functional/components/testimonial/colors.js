@@ -1,8 +1,29 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
+export const BrandTestimonialQuoteColorDefault = "var(--brand-color-text-default)";
+export const BrandTestimonialQuoteColorEmphasis = "var(--base-color-scale-green-7)";
+export const BrandTestimonialQuoteMarkBackgroundDefault = "var(--base-color-scale-gray-0)";
+export const BrandTestimonialQuoteMarkBackgroundBlue = "var(--base-color-scale-blue-0)";
+export const BrandTestimonialQuoteMarkBackgroundCoral = "var(--base-color-scale-coral-0)";
+export const BrandTestimonialQuoteMarkBackgroundGreen = "var(--base-color-scale-green-0)";
+export const BrandTestimonialQuoteMarkBackgroundGray = "var(--base-color-scale-gray-0)";
+export const BrandTestimonialQuoteMarkBackgroundIndigo = "var(--base-color-scale-indigo-0)";
+export const BrandTestimonialQuoteMarkBackgroundLemon = "var(--base-color-scale-lemon-0)";
+export const BrandTestimonialQuoteMarkBackgroundLime = "var(--base-color-scale-lime-0)";
+export const BrandTestimonialQuoteMarkBackgroundOrange = "var(--base-color-scale-orange-0)";
+export const BrandTestimonialQuoteMarkBackgroundPink = "var(--base-color-scale-pink-0)";
+export const BrandTestimonialQuoteMarkBackgroundPurple = "var(--base-color-scale-purple-0)";
+export const BrandTestimonialQuoteMarkBackgroundRed = "var(--base-color-scale-red-0)";
+export const BrandTestimonialQuoteMarkBackgroundTeal = "var(--base-color-scale-teal-0)";
+export const BrandTestimonialQuoteMarkBackgroundYellow = "var(--base-color-scale-yellow-0)";
+export const BrandTestimonialQuoteMarkBackgroundBluePurple = "var(--base-color-scale-blue-0)";
+export const BrandTestimonialQuoteMarkBackgroundGreenBlue = "var(--base-color-scale-green-0)";
+export const BrandTestimonialQuoteMarkBackgroundPinkBlue = "var(--base-color-scale-pink-0)";
+export const BrandTestimonialQuoteMarkBackgroundPurpleRed = "var(--base-color-scale-purple-0)";
+export const BrandTestimonialQuoteMarkBackgroundRedOrange = "var(--base-color-scale-red-0)";
 export const BrandTestimonialBorderMaskDefault = "linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))";
 export const BrandTestimonialBorderMaskSubtle = "linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))";
 export const BrandTestimonialQuoteMarkColorDefault = "var(--brand-color-text-default)";
@@ -10,8 +31,8 @@ export const BrandTestimonialQuoteMarkColorBlue = "var(--base-color-scale-blue-5
 export const BrandTestimonialQuoteMarkColorBluePurpleStart = "var(--base-color-scale-blue-5)";
 export const BrandTestimonialQuoteMarkColorBluePurpleEnd = "var(--base-color-scale-purple-5)";
 export const BrandTestimonialQuoteMarkColorCoral = "var(--base-color-scale-coral-5)";
-export const BrandTestimonialQuoteMarkColorGreen = "var(--base-color-scale-green-5)";
-export const BrandTestimonialQuoteMarkColorGreenBlueStart = "var(--base-color-scale-green-5)";
+export const BrandTestimonialQuoteMarkColorGreen = "var(--base-color-scale-green-6)";
+export const BrandTestimonialQuoteMarkColorGreenBlueStart = "var(--base-color-scale-green-6)";
 export const BrandTestimonialQuoteMarkColorGreenBlueEnd = "var(--base-color-scale-blue-5)";
 export const BrandTestimonialQuoteMarkColorGray = "var(--base-color-scale-gray-5)";
 export const BrandTestimonialQuoteMarkColorIndigo = "var(--base-color-scale-indigo-5)";

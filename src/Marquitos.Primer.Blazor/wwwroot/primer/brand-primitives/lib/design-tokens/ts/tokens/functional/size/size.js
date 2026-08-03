@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
@@ -22,7 +22,7 @@ module.exports = {
         gap: "0.5rem",
       },
       medium: {
-        size: "3rem",
+        size: "2.6875rem",
         lineBoxHeight: "1rem",
         paddingBlock: {
           condensed: "0.375rem",

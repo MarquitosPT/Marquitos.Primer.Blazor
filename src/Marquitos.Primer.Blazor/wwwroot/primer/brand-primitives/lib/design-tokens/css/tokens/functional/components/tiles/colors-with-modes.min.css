@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.72.0/lib/design-tokens/css/tokens/functional/components/tiles/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-tiles-bgColor-rest:#fafafa;--brand-tiles-bgColor-hover:#f2f5f3;--brand-tiles-highlightColor:#08872b}[data-color-mode=dark]{--brand-tiles-bgColor-rest:#090d0a;--brand-tiles-bgColor-hover:#101411;--brand-tiles-highlightColor:#5fed83}
+/*# sourceMappingURL=/sm/cc6e013cb2fe6af8d51b67c8a101572cd01f55f19be5381c2f339ea406953bb1.map */

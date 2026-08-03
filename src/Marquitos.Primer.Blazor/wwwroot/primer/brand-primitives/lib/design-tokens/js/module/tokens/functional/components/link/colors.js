@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 module.exports = {
@@ -12,8 +12,8 @@ module.exports = {
           dark: "var(--brand-color-text-default)",
         },
         accent: {
-          value: "var(--base-color-scale-blue-6)",
-          dark: "var(--base-color-scale-blue-2)",
+          value: "var(--brand-color-text-link-rest)",
+          dark: "var(--brand-color-text-link-rest)",
         },
       },
     },

@@ -1,11 +1,38 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
   brand: {
     Testimonial: {
+      quote: {
+        color: {
+          default: "var(--brand-color-text-default)",
+          emphasis: "var(--base-color-scale-green-7)",
+        },
+      },
+      quoteMarkBackground: {
+        default: "var(--base-color-scale-gray-0)",
+        blue: "var(--base-color-scale-blue-0)",
+        coral: "var(--base-color-scale-coral-0)",
+        green: "var(--base-color-scale-green-0)",
+        gray: "var(--base-color-scale-gray-0)",
+        indigo: "var(--base-color-scale-indigo-0)",
+        lemon: "var(--base-color-scale-lemon-0)",
+        lime: "var(--base-color-scale-lime-0)",
+        orange: "var(--base-color-scale-orange-0)",
+        pink: "var(--base-color-scale-pink-0)",
+        purple: "var(--base-color-scale-purple-0)",
+        red: "var(--base-color-scale-red-0)",
+        teal: "var(--base-color-scale-teal-0)",
+        yellow: "var(--base-color-scale-yellow-0)",
+        "blue-purple": "var(--base-color-scale-blue-0)",
+        "green-blue": "var(--base-color-scale-green-0)",
+        "pink-blue": "var(--base-color-scale-pink-0)",
+        "purple-red": "var(--base-color-scale-purple-0)",
+        "red-orange": "var(--base-color-scale-red-0)",
+      },
       borderMask: {
         default: "linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))",
         subtle: "linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))",
@@ -18,9 +45,9 @@ module.exports = {
           end: "var(--base-color-scale-purple-5)",
         },
         coral: "var(--base-color-scale-coral-5)",
-        green: "var(--base-color-scale-green-5)",
+        green: "var(--base-color-scale-green-6)",
         "green-blue": {
-          start: "var(--base-color-scale-green-5)",
+          start: "var(--base-color-scale-green-6)",
           end: "var(--base-color-scale-blue-5)",
         },
         gray: "var(--base-color-scale-gray-5)",

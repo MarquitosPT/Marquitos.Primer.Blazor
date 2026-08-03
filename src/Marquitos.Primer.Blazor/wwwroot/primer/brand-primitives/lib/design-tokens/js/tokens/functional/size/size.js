@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 export const BrandControlMinTargetFine = "1rem";
@@ -12,7 +12,7 @@ export const BrandControlSmallPaddingInlineCondensed = "0.5rem";
 export const BrandControlSmallPaddingInlineNormal = "0.75rem";
 export const BrandControlSmallPaddingInlineSpacious = "1.5rem";
 export const BrandControlSmallGap = "0.5rem";
-export const BrandControlMediumSize = "3rem";
+export const BrandControlMediumSize = "2.6875rem";
 export const BrandControlMediumLineBoxHeight = "1rem";
 export const BrandControlMediumPaddingBlockCondensed = "0.375rem";
 export const BrandControlMediumPaddingBlockNormal = "1rem";

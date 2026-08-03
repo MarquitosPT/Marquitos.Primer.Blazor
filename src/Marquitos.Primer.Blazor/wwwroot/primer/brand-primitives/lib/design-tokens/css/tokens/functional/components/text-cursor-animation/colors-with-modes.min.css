@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/brand-primitives@0.72.0/lib/design-tokens/css/tokens/functional/components/text-cursor-animation/colors-with-modes.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+:root,[data-color-mode=light]{--brand-TextCursorAnimation-cursor-color:var(--base-color-scale-green-6)}[data-color-mode=dark]{--brand-TextCursorAnimation-cursor-color:var(--brand-color-accent-primary)}
+/*# sourceMappingURL=/sm/a56258bd67e5e233e55f14a4bb2b27ce65b3c2091758e658c42792c0dc316f5c.map */

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 module.exports = {
@@ -8,7 +8,7 @@ module.exports = {
     Link: {
       color: {
         default: "var(--brand-color-text-default)",
-        accent: "var(--base-color-scale-blue-6)",
+        accent: "var(--brand-color-text-link-rest)",
       },
     },
   },

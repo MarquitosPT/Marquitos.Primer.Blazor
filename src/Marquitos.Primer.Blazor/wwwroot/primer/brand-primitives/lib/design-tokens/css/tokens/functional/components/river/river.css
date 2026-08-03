@@ -1,28 +1,58 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 :root {
+  --brand-RiverBreakout-variant-gridline-spacing-contentGap: var(--base-size-16);
+  --brand-RiverBreakout-variant-gridline-spacing-outerInline: var(--base-size-20);
+  --brand-RiverBreakout-variant-gridline-spacing-outerBlockEnd: var(--base-size-40);
+  --brand-RiverBreakout-variant-gridline-spacing-outerBlock: var(--base-size-36);
   --brand-RiverBreakout-spacing-inner: var(--base-size-40);
-  --brand-River-spacing-outer: var(--base-size-36);
+  --brand-RiverAccordion-variant-gridline-spacing-contentGap: var(--base-size-32);
+  --brand-RiverAccordion-variant-gridline-spacing-outerInline: var(--base-size-20);
+  --brand-RiverAccordion-variant-gridline-spacing-outerBlock: var(--base-size-40);
+  --brand-River-variant-gridline-spacing-outerInline: var(--base-size-20);
+  --brand-River-variant-gridline-spacing-outerBlock: var(--base-size-40);
+  --brand-River-variant-gridline-visual-padding: var(--base-size-32);
+  --brand-River-spacing-outerBlock: var(--base-size-36);
   --brand-River-spacing-innerY: var(--base-size-24);
-  --brand-River-spacing-inner: var(--base-size-24);
+  --brand-River-spacing-inner: var(--base-size-40);
 }
 
 @media (min-width: 768px) {
   :root {
+    --brand-RiverBreakout-variant-gridline-spacing-contentGap: var(--base-size-20);
+    --brand-RiverBreakout-variant-gridline-spacing-outerInline: var(--base-size-36);
+    --brand-RiverBreakout-variant-gridline-spacing-outerBlockEnd: var(--base-size-48);
+    --brand-RiverBreakout-variant-gridline-spacing-outerBlock: var(--base-size-40);
     --brand-RiverBreakout-spacing-inner: var(--base-size-48);
+    --brand-RiverAccordion-variant-gridline-spacing-outerInline: var(--base-size-36);
+    --brand-RiverAccordion-variant-gridline-spacing-outerBlock: var(--base-size-36);
     --brand-River-spacing-innerY: var(--base-size-24);
-    --brand-River-spacing-inner: var(--base-size-36);
+  }
+}
+
+@media (min-width: 1012px) {
+  :root {
+    --brand-River-variant-gridline-visual-padding: var(--base-size-64);
   }
 }
 
 @media (min-width: 1280px) {
   :root {
+    --brand-RiverBreakout-variant-gridline-spacing-contentGap: var(--base-size-24);
+    --brand-RiverBreakout-variant-gridline-spacing-outerInline: var(--base-size-64);
+    --brand-RiverBreakout-variant-gridline-spacing-outerBlockEnd: var(--base-size-80);
+    --brand-RiverBreakout-variant-gridline-spacing-outerBlock: var(--base-size-64);
     --brand-RiverBreakout-spacing-inner: var(--base-size-64);
-    --brand-River-spacing-outer: var(--base-size-48);
+    --brand-RiverAccordion-variant-gridline-spacing-contentGap: var(--base-size-64);
+    --brand-RiverAccordion-variant-gridline-spacing-outerInline: var(--base-size-64);
+    --brand-RiverAccordion-variant-gridline-spacing-outerBlock: var(--base-size-64);
+    --brand-River-variant-gridline-spacing-outerInline: var(--base-size-64);
+    --brand-River-variant-gridline-spacing-outerBlock: var(--base-size-64);
+    --brand-River-spacing-outerBlock: var(--base-size-48);
     --brand-River-spacing-innerY: var(--base-size-32);
-    --brand-River-spacing-inner: var(--base-size-48);
+    --brand-River-spacing-inner: var(--base-size-24);
   }
 }

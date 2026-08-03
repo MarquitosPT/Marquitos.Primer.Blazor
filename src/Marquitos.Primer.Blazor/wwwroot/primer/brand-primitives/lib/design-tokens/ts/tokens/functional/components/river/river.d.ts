@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:57 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:31 GMT
  */
 
 
@@ -11,12 +11,44 @@ declare const tokens: {
       "spacing": {
         "inner": string,
         "innerY": string,
-        "outer": string
+        "outerBlock": string
+      },
+      "variant": {
+        "gridline": {
+          "visual": {
+            "padding": string
+          },
+          "spacing": {
+            "outerBlock": string,
+            "outerInline": string
+          }
+        }
+      }
+    },
+    "RiverAccordion": {
+      "variant": {
+        "gridline": {
+          "spacing": {
+            "outerBlock": string,
+            "outerInline": string,
+            "contentGap": string
+          }
+        }
       }
     },
     "RiverBreakout": {
       "spacing": {
         "inner": string
+      },
+      "variant": {
+        "gridline": {
+          "spacing": {
+            "outerBlock": string,
+            "outerBlockEnd": string,
+            "outerInline": string,
+            "contentGap": string
+          }
+        }
       }
     }
   }

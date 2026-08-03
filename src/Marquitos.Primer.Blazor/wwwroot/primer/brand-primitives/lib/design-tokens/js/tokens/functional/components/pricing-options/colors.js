@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 export const BrandPricingOptionsBorderMask = "linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))";
@@ -8,3 +8,6 @@ export const BrandPricingOptionsItemBgColorSolid = "var(--brand-color-canvas-sub
 export const BrandPricingOptionsItemBgColorGradientStart = "var(--brand-color-canvas-subtle)";
 export const BrandPricingOptionsItemBgColorGradientEnd = "var(--brand-color-canvas-default)";
 export const BrandPricingOptionsFeatureListGroupHeadingColor = "var(--brand-color-text-default)";
+export const BrandPricingOptionsActionsMessageBgColor = "color-mix(in srgb, var(--base-color-scale-blue-4) 10%, transparent)";
+export const BrandPricingOptionsActionsMessageBorderColor = "color-mix(in srgb, var(--base-color-scale-blue-6) 20%, transparent)";
+export const BrandPricingOptionsActionsMessageAccentColor = "var(--base-color-scale-blue-5)";

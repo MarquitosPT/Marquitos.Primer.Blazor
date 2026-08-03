@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
 module.exports = {
@@ -10,6 +10,10 @@ module.exports = {
         default: {
           value: "var(--brand-color-canvas-default)",
           dark: "var(--brand-color-canvas-subtle)",
+        },
+        overlay: {
+          value: "rgba(242, 245, 243, 0.2)",
+          dark: "rgba(242, 245, 243, 0.05)",
         },
       },
     },

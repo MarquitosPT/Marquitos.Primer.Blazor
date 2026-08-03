@@ -1,7 +1,7 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
-export const BrandInlineLinkColorRest = "var(--base-color-scale-blue-6)";
-export const BrandInlineLinkColorPressed = "var(--base-color-scale-blue-8)";
+export const BrandInlineLinkColorRest = "var(--brand-color-text-link-rest)";
+export const BrandInlineLinkColorPressed = "var(--brand-color-text-link-pressed)";

@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
-export const BrandIconBackgroundDefault = "var(--base-color-scale-gray-0)";
+export const BrandIconBackgroundDefault = "var(--brand-Icon-background-green)";
 export const BrandIconBackgroundBlue = "var(--base-color-scale-blue-0)";
 export const BrandIconBackgroundCoral = "var(--base-color-scale-coral-0)";
 export const BrandIconBackgroundGreen = "var(--base-color-scale-green-0)";
@@ -17,10 +17,10 @@ export const BrandIconBackgroundPurple = "var(--base-color-scale-purple-0)";
 export const BrandIconBackgroundRed = "var(--base-color-scale-red-0)";
 export const BrandIconBackgroundTeal = "var(--base-color-scale-teal-0)";
 export const BrandIconBackgroundYellow = "var(--base-color-scale-yellow-0)";
-export const BrandIconColorDefault = "var(--brand-color-text-default)";
+export const BrandIconColorDefault = "var(--brand-Icon-color-green)";
 export const BrandIconColorBlue = "var(--base-color-scale-blue-5)";
 export const BrandIconColorCoral = "var(--base-color-scale-coral-5)";
-export const BrandIconColorGreen = "var(--base-color-scale-green-5)";
+export const BrandIconColorGreen = "var(--base-color-scale-green-6)";
 export const BrandIconColorGray = "var(--base-color-scale-gray-6)";
 export const BrandIconColorIndigo = "var(--base-color-scale-indigo-5)";
 export const BrandIconColorLemon = "var(--base-color-scale-lemon-5)";

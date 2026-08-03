@@ -44,17 +44,6 @@
       "legacy": "primer-branch-name/index.scss",
       "imports": []
     },
-    "box": {
-      "name": "box",
-      "source": "src/box/index.scss",
-      "sass": "@primer/css/box/index.scss",
-      "css": "dist/box.css",
-      "map": "dist/box.css.map",
-      "js": "dist/box.js",
-      "stats": "dist/stats/box.json",
-      "legacy": "primer-box/index.scss",
-      "imports": []
-    },
     "header": {
       "name": "header",
       "source": "src/header/index.scss",
@@ -64,17 +53,6 @@
       "js": "dist/header.js",
       "stats": "dist/stats/header.json",
       "legacy": "primer-header/index.scss",
-      "imports": []
-    },
-    "autocomplete": {
-      "name": "autocomplete",
-      "source": "src/autocomplete/index.scss",
-      "sass": "@primer/css/autocomplete/index.scss",
-      "css": "dist/autocomplete.css",
-      "map": "dist/autocomplete.css.map",
-      "js": "dist/autocomplete.js",
-      "stats": "dist/stats/autocomplete.json",
-      "legacy": "primer-autocomplete/index.scss",
       "imports": []
     },
     "pagination": {
@@ -88,6 +66,17 @@
       "legacy": "primer-pagination/index.scss",
       "imports": []
     },
+    "tooltips": {
+      "name": "tooltips",
+      "source": "src/tooltips/index.scss",
+      "sass": "@primer/css/tooltips/index.scss",
+      "css": "dist/tooltips.css",
+      "map": "dist/tooltips.css.map",
+      "js": "dist/tooltips.js",
+      "stats": "dist/stats/tooltips.json",
+      "legacy": "primer-tooltips/index.scss",
+      "imports": []
+    },
     "select-menu": {
       "name": "select-menu",
       "source": "src/select-menu/index.scss",
@@ -97,6 +86,17 @@
       "js": "dist/select-menu.js",
       "stats": "dist/stats/select-menu.json",
       "legacy": "primer-select-menu/index.scss",
+      "imports": []
+    },
+    "autocomplete": {
+      "name": "autocomplete",
+      "source": "src/autocomplete/index.scss",
+      "sass": "@primer/css/autocomplete/index.scss",
+      "css": "dist/autocomplete.css",
+      "map": "dist/autocomplete.css.map",
+      "js": "dist/autocomplete.js",
+      "stats": "dist/stats/autocomplete.json",
+      "legacy": "primer-autocomplete/index.scss",
       "imports": []
     },
     "toasts": {
@@ -110,17 +110,6 @@
       "legacy": "primer-toasts/index.scss",
       "imports": []
     },
-    "tooltips": {
-      "name": "tooltips",
-      "source": "src/tooltips/index.scss",
-      "sass": "@primer/css/tooltips/index.scss",
-      "css": "dist/tooltips.css",
-      "map": "dist/tooltips.css.map",
-      "js": "dist/tooltips.js",
-      "stats": "dist/stats/tooltips.json",
-      "legacy": "primer-tooltips/index.scss",
-      "imports": []
-    },
     "marketing-support": {
       "name": "marketing-support",
       "source": "src/marketing/support/index.scss",
@@ -130,6 +119,17 @@
       "js": "dist/marketing-support.js",
       "stats": "dist/stats/marketing-support.json",
       "legacy": "primer-marketing-support/index.scss",
+      "imports": []
+    },
+    "box": {
+      "name": "box",
+      "source": "src/box/index.scss",
+      "sass": "@primer/css/box/index.scss",
+      "css": "dist/box.css",
+      "map": "dist/box.css.map",
+      "js": "dist/box.js",
+      "stats": "dist/stats/box.json",
+      "legacy": "primer-box/index.scss",
       "imports": []
     },
     "labels": {
@@ -176,6 +176,17 @@
       "legacy": "primer-marketing-buttons/index.scss",
       "imports": []
     },
+    "buttons": {
+      "name": "buttons",
+      "source": "src/buttons/index.scss",
+      "sass": "@primer/css/buttons/index.scss",
+      "css": "dist/buttons.css",
+      "map": "dist/buttons.css.map",
+      "js": "dist/buttons.js",
+      "stats": "dist/stats/buttons.json",
+      "legacy": "primer-buttons/index.scss",
+      "imports": []
+    },
     "marketing-type": {
       "name": "marketing-type",
       "source": "src/marketing/type/index.scss",
@@ -196,17 +207,6 @@
       "js": "dist/navigation.js",
       "stats": "dist/stats/navigation.json",
       "legacy": "primer-navigation/index.scss",
-      "imports": []
-    },
-    "buttons": {
-      "name": "buttons",
-      "source": "src/buttons/index.scss",
-      "sass": "@primer/css/buttons/index.scss",
-      "css": "dist/buttons.css",
-      "map": "dist/buttons.css.map",
-      "js": "dist/buttons.js",
-      "stats": "dist/stats/buttons.json",
-      "legacy": "primer-buttons/index.scss",
       "imports": []
     },
     "forms": {

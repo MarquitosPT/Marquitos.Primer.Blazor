@@ -1,31 +1,42 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 15:48:56 GMT
+ * Generated on Tue, 28 Jul 2026 20:18:30 GMT
  */
 
-export const BrandColorSuccessFg = "var(--base-color-scale-green-5)";
-export const BrandColorSuccessEmphasis = "var(--base-color-scale-green-4)";
-export const BrandColorSuccessMuted = "#4bc36b99";
-export const BrandColorSuccessSubtle = "var(--base-color-scale-green-0)";
-export const BrandColorErrorFg = "var(--base-color-scale-red-5)";
-export const BrandColorErrorEmphasis = "var(--base-color-scale-red-5)";
-export const BrandColorErrorMuted = "#ff878599";
-export const BrandColorErrorSubtle = "var(--base-color-scale-red-0)";
-export const BrandColorAccentPrimary = "var(--base-color-scale-green-5)";
+export const BrandColorSuccessFg = "var(--base-color-scale-green-6)";
+export const BrandColorSuccessEmphasis = "var(--base-color-scale-green-5)";
+export const BrandColorSuccessMuted = "#8CF2A699";
+export const BrandColorSuccessSubtle = "var(--base-color-scale-green-1)";
+export const BrandColorDangerFg = "var(--base-color-scale-red-5)";
+export const BrandColorDangerEmphasis = "var(--base-color-scale-red-5)";
+export const BrandColorDangerMuted = "#FFABA899";
+export const BrandColorDangerSubtle = "var(--base-color-scale-red-0)";
+export const BrandColorErrorFg = "var(--brand-color-danger-fg)";
+export const BrandColorErrorEmphasis = "var(--brand-color-danger-emphasis)";
+export const BrandColorErrorMuted = "var(--brand-color-danger-muted)";
+export const BrandColorErrorSubtle = "var(--brand-color-danger-subtle)";
+export const BrandColorAccentPrimary = "var(--base-color-scale-green-7)";
 export const BrandColorAccentSecondary = "var(--base-color-scale-yellow-5)";
-export const BrandColorTextDefault = "var(--base-color-scale-gray-9)";
-export const BrandColorTextMuted = "var(--base-color-scale-gray-6)";
-export const BrandColorTextSubtle = "var(--base-color-scale-gray-5)";
+export const BrandColorTextDefault = "var(--base-color-scale-black-0)";
+export const BrandColorTextMuted = "var(--base-color-scale-gray-7)";
+export const BrandColorTextSubtle = "var(--brand-color-text-muted)";
 export const BrandColorTextOnEmphasis = "var(--base-color-scale-white-0)";
-export const BrandColorNeutralEmphasisPlus = "var(--base-color-scale-gray-9)";
-export const BrandColorNeutralEmphasis = "var(--base-color-scale-gray-5)";
-export const BrandColorNeutralMuted = "#b7bfc8fe";
-export const BrandColorNeutralSubtle = "#e9edf1fe";
+export const BrandColorTextEmphasized = "var(--base-color-scale-green-6)";
+export const BrandColorTextLinkRest = "var(--base-color-scale-blue-6)";
+export const BrandColorTextLinkPressed = "var(--base-color-scale-blue-8)";
+export const BrandColorTextDanger = "#CF222E";
+export const BrandColorTextError = "var(--brand-color-text-danger)";
+export const BrandColorNeutralEmphasisPlus = "var(--base-color-scale-gray-8)";
+export const BrandColorNeutralEmphasis = "var(--base-color-scale-gray-6)";
+export const BrandColorNeutralMuted = "#C4CCC6fe";
+export const BrandColorNeutralSubtle = "#E4EBE6fe";
 export const BrandColorCanvasDefault = "var(--base-color-scale-white-0)";
+export const BrandColorCanvasInvert = "var(--base-color-scale-black-0)";
 export const BrandColorCanvasOverlay = "var(--base-color-scale-white-0)";
 export const BrandColorCanvasInset = "var(--base-color-scale-gray-0)";
 export const BrandColorCanvasSubtle = "var(--base-color-scale-gray-0)";
-export const BrandColorBorderDefault = "var(--base-color-scale-gray-3)";
-export const BrandColorBorderMuted = "#d3d9dffe";
-export const BrandColorBorderSubtle = "#e9edf1fe";
+export const BrandColorCanvasMuted = "#F9FBF9";
+export const BrandColorBorderDefault = "var(--base-color-scale-gray-4)";
+export const BrandColorBorderMuted = "var(--base-color-scale-gray-1)";
+export const BrandColorBorderSubtle = "var(--base-color-scale-gray-2)";
 export const BrandColorFocus = "var(--base-color-scale-blue-5)";
