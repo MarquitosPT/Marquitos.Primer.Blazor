@@ -1,9 +1,13 @@
 using Marquitos.Primer.Blazor.Base.Colors;
 using Microsoft.JSInterop;
 
-namespace Marquitos.Primer.Blazor.Services
+namespace Marquitos.Primer.Blazor.JSInterop
 {
-    internal class ThemeService(IJSRuntime JSRuntime) : IThemeService
+    /// <summary>
+    /// Provides an implementation of <see cref="IJSThemeService"/> for interacting with JavaScript to manage theme colors in a Blazor application.
+    /// </summary>
+    /// <param name="JSRuntime">The JavaScript runtime instance.</param>
+    internal class JSThemeService(IJSRuntime JSRuntime) : IJSThemeService
     {
         private readonly IJSRuntime _jsRuntime = JSRuntime;
 

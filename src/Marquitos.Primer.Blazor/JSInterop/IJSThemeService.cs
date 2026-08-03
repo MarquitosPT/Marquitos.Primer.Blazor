@@ -1,11 +1,11 @@
 using Marquitos.Primer.Blazor.Base.Colors;
 
-namespace Marquitos.Primer.Blazor.Services
+namespace Marquitos.Primer.Blazor.JSInterop
 {
     /// <summary>
-    /// Defines the contract for a service that manages theme colors in a Blazor application.
+    /// Defines an interface for interacting with JavaScript to manage theme colors in a Blazor application.
     /// </summary>
-    public interface IThemeService
+    public interface IJSThemeService
     {
         /// <summary>
         /// Gets the current theme color.

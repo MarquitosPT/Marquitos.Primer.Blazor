@@ -1,4 +1,4 @@
-using Marquitos.Primer.Blazor.Services;
+using Marquitos.Primer.Blazor.JSInterop;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Marquitos.Primer.Blazor.Extensions.Configuration
@@ -8,10 +8,9 @@ namespace Marquitos.Primer.Blazor.Extensions.Configuration
         public static IServiceCollection AddMarquitosPrimerComponents(this IServiceCollection services)
         {
             // Services
-            services.AddScoped<ExampleJsInterop>();
-            services.AddScoped<SessionStorageService>();
-            services.AddScoped<LocalStorageService>();
-            services.AddScoped<IThemeService, ThemeService>();
+            services.AddScoped<IJSSessionStorageService, JSSessionStorageService>();
+            services.AddScoped<IJSLocalStorageService, JSLocalStorageService>();
+            services.AddScoped<IJSThemeService, JSThemeService>();
 
             return services;
         }
