@@ -11,7 +11,7 @@ namespace Marquitos.Primer.Blazor.Extensions.Configuration
             services.AddScoped<ExampleJsInterop>();
             services.AddScoped<SessionStorageService>();
             services.AddScoped<LocalStorageService>();
-            services.AddScoped<ThemeStorageService>();
+            services.AddScoped<IThemeService, ThemeService>();
 
             return services;
         }

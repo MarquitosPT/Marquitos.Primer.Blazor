@@ -191,7 +191,7 @@
     }
 
         .menu-toggle.open {
-            /*background: #ccc;*/
+            width: 50px;
         }
 
     .menu-bar {
