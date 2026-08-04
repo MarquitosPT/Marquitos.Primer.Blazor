@@ -9,6 +9,13 @@
     height: calc(100dvh - env(safe-area-inset-top, 0));
 }
 
+@media (orientation: landscape) {
+    .page {
+        top: 0;
+        height: 100dvh;
+    }
+}
+
 .middle {
     flex: 1;
     display: flex;
