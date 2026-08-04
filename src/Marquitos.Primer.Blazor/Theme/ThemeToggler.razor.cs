@@ -32,6 +32,12 @@ namespace Marquitos.Primer.Blazor.Theme
         [Parameter]
         public string SwitchToLightModeMessage { get; set; } = "Switch to light mode";
 
+        /// <summary>
+        /// Gets or sets the event callback that is invoked when the theme color changes.
+        /// </summary>
+        [Parameter]
+        public EventCallback<ThemeColor> OnThemeChanged { get; set; }
+
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
             var currentTheme = CurrentTheme;
@@ -64,6 +70,11 @@ namespace Marquitos.Primer.Blazor.Theme
             };
 
             _title = CurrentTheme == ThemeColor.Light ? SwitchToDarkModeMessage : SwitchToLightModeMessage;
+
+            if (OnThemeChanged.HasDelegate)
+            {
+                await OnThemeChanged.InvokeAsync(CurrentTheme);
+            }
 
             StateHasChanged();
         }

@@ -1,0 +1,6 @@
+<button type="button" class="btn-octicon" aria-label="@Title" title="@Title">@Icon</button>
+
+@code {
+    [Parameter] public RenderFragment? Icon { get; set; }
+    [Parameter] public string? Title { get; set; }
+}
