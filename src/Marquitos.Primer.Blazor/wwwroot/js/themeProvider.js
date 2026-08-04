@@ -8,6 +8,9 @@ window.themeProvider = {
         document.body.setAttribute('data-light-theme', 'light');
         document.body.setAttribute('data-dark-theme', 'dark');
 
+        document.querySelector('meta[name="theme-color"]')
+            ?.setAttribute("content", currentThemeColor === "dark" ? "#000000" : "#f2f5f3");
+
         sessionStorage.setItem('data-color-mode', currentThemeColor);
 
         return currentThemeColor;
@@ -22,6 +25,10 @@ window.themeProvider = {
         const newThemeColor = currentThemeColor === 'light' ? 'dark' : 'light';
 
         document.body.setAttribute('data-color-mode', newThemeColor);
+
+        document.querySelector('meta[name="theme-color"]')
+            ?.setAttribute("content", newThemeColor === "dark" ? "#000000" : "#f2f5f3");
+
         sessionStorage.setItem('data-color-mode', newThemeColor);
 
         return newThemeColor;
@@ -29,6 +36,10 @@ window.themeProvider = {
 
     setThemeColor: function (themeColor) {
         document.body.setAttribute('data-color-mode', themeColor);
+
+        document.querySelector('meta[name="theme-color"]')
+            ?.setAttribute("content", themeColor === "dark" ? "#000000" : "#f2f5f3");
+
         sessionStorage.setItem('data-color-mode', themeColor);
 
         return themeColor;

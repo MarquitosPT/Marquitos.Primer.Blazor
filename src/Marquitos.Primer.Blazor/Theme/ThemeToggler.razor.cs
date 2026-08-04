@@ -34,6 +34,7 @@ namespace Marquitos.Primer.Blazor.Theme
 
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
+            var currentTheme = CurrentTheme;
             var theme = await JSRuntime.InvokeAsync<string>("themeProvider.getThemeColor");
 
             CurrentTheme = theme switch
@@ -44,6 +45,11 @@ namespace Marquitos.Primer.Blazor.Theme
             };
 
             _title = CurrentTheme == ThemeColor.Light ? SwitchToDarkModeMessage : SwitchToLightModeMessage;
+
+            if (currentTheme != CurrentTheme)
+            {
+                StateHasChanged();
+            }
         }
 
         private async Task ToggleThemeAsync(MouseEventArgs args)
@@ -58,6 +64,8 @@ namespace Marquitos.Primer.Blazor.Theme
             };
 
             _title = CurrentTheme == ThemeColor.Light ? SwitchToDarkModeMessage : SwitchToLightModeMessage;
+
+            StateHasChanged();
         }
     }
 }
