@@ -1,0 +1,13 @@
+:root {
+    --base-borderWidth-thin: 0.0625rem; /** Scale token: 1px border width for subtle outlines or dividers. */
+    --base-borderWidth-thick: 0.125rem; /** Scale token: 2px border width for standard outlines or dividers. */
+    --base-borderWidth-thicker: 0.25rem; /** Scale token: 4px border width for prominent outlines or dividers. */
+}
+
+:root {
+    --base-borderRadius-full: 624.9375rem; /** Shape token for fully rounded or pill-shaped elements. */
+    --base-borderRadius-large: 0.75rem; /** Scale token: 12px radius for larger surfaces or softer container treatments. */
+    --base-borderRadius-medium: 0.375rem; /** Scale token: 6px radius in the border-radius scale. Use when selecting a specific radius intentionally. */
+    --base-borderRadius-small: 0.1875rem; /** Scale token: 3px radius for compact UI elements or small component variants. */
+    --base-borderRadius-default: var(--base-borderRadius-medium); /** Semantic token: preferred default border radius for standard UI components. Use this in normal component code unless a specific radius is intentionally required. */
+}

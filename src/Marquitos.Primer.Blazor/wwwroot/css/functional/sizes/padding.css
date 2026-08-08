@@ -1,0 +1,714 @@
+/* Padding */
+.p-0 {
+    padding: 0 !important;
+}
+
+.p-1 {
+    padding: var(--base-size-4, 4px) !important;
+}
+
+.p-2 {
+    padding: var(--base-size-8, 8px) !important;
+}
+
+.p-3 {
+    padding: var(--base-size-16, 16px) !important;
+}
+
+.p-4 {
+    padding: var(--base-size-24, 24px) !important;
+}
+
+.p-5 {
+    padding: var(--base-size-32, 32px) !important;
+}
+
+.p-6 {
+    padding: var(--base-size-40, 40px) !important;
+}
+
+.p-7 {
+    padding: var(--base-size-48, 48px) !important;
+}
+
+.p-8 {
+    padding: var(--base-size-64, 64px) !important;
+}
+
+.p-9 {
+    padding: var(--base-size-80, 80px) !important;
+}
+
+.p-10 {
+    padding: var(--base-size-96, 96px) !important;
+}
+
+.p-11 {
+    padding: var(--base-size-112, 112px) !important;
+}
+
+.p-12 {
+    padding: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Left */
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.pl-1 {
+    padding-left: var(--base-size-4, 4px) !important;
+}
+
+.pl-2 {
+    padding-left: var(--base-size-8, 8px) !important;
+}
+
+.pl-3 {
+    padding-left: var(--base-size-16, 16px) !important;
+}
+
+.pl-4 {
+    padding-left: var(--base-size-24, 24px) !important;
+}
+
+.pl-5 {
+    padding-left: var(--base-size-32, 32px) !important;
+}
+
+.pl-6 {
+    padding-left: var(--base-size-40, 40px) !important;
+}
+
+.pl-7 {
+    padding-left: var(--base-size-48, 48px) !important;
+}
+
+.pl-8 {
+    padding-left: var(--base-size-64, 64px) !important;
+}
+
+.pl-9 {
+    padding-left: var(--base-size-80, 80px) !important;
+}
+
+.pl-10 {
+    padding-left: var(--base-size-96, 96px) !important;
+}
+
+.pl-11 {
+    padding-left: var(--base-size-112, 112px) !important;
+}
+
+.pl-12 {
+    padding-left: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Right */
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.pr-1 {
+    padding-right: var(--base-size-4, 4px) !important;
+}
+
+.pr-2 {
+    padding-right: var(--base-size-8, 8px) !important;
+}
+
+.pr-3 {
+    padding-right: var(--base-size-16, 16px) !important;
+}
+
+.pr-4 {
+    padding-right: var(--base-size-24, 24px) !important;
+}
+
+.pr-5 {
+    padding-right: var(--base-size-32, 32px) !important;
+}
+
+.pr-6 {
+    padding-right: var(--base-size-40, 40px) !important;
+}
+
+.pr-7 {
+    padding-right: var(--base-size-48, 48px) !important;
+}
+
+.pr-8 {
+    padding-right: var(--base-size-64, 64px) !important;
+}
+
+.pr-9 {
+    padding-right: var(--base-size-80, 80px) !important;
+}
+
+.pr-10 {
+    padding-right: var(--base-size-96, 96px) !important;
+}
+
+.pr-11 {
+    padding-right: var(--base-size-112, 112px) !important;
+}
+
+.pr-12 {
+    padding-right: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Top */
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.pt-1 {
+    padding-top: var(--base-size-4, 4px) !important;
+}
+
+.pt-2 {
+    padding-top: var(--base-size-8, 8px) !important;
+}
+
+.pt-3 {
+    padding-top: var(--base-size-16, 16px) !important;
+}
+
+.pt-4 {
+    padding-top: var(--base-size-24, 24px) !important;
+}
+
+.pt-5 {
+    padding-top: var(--base-size-32, 32px) !important;
+}
+
+.pt-6 {
+    padding-top: var(--base-size-40, 40px) !important;
+}
+
+.pt-7 {
+    padding-top: var(--base-size-48, 48px) !important;
+}
+
+.pt-8 {
+    padding-top: var(--base-size-64, 64px) !important;
+}
+
+.pt-9 {
+    padding-top: var(--base-size-80, 80px) !important;
+}
+
+.pt-10 {
+    padding-top: var(--base-size-96, 96px) !important;
+}
+
+.pt-11 {
+    padding-top: var(--base-size-112, 112px) !important;
+}
+
+.pt-12 {
+    padding-top: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Bottom */
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.pb-1 {
+    padding-bottom: var(--base-size-4, 4px) !important;
+}
+
+.pb-2 {
+    padding-bottom: var(--base-size-8, 8px) !important;
+}
+
+.pb-3 {
+    padding-bottom: var(--base-size-16, 16px) !important;
+}
+
+.pb-4 {
+    padding-bottom: var(--base-size-24, 24px) !important;
+}
+
+.pb-5 {
+    padding-bottom: var(--base-size-32, 32px) !important;
+}
+
+.pb-6 {
+    padding-bottom: var(--base-size-40, 40px) !important;
+}
+
+.pb-7 {
+    padding-bottom: var(--base-size-48, 48px) !important;
+}
+
+.pb-8 {
+    padding-bottom: var(--base-size-64, 64px) !important;
+}
+
+.pb-9 {
+    padding-bottom: var(--base-size-80, 80px) !important;
+}
+
+.pb-10 {
+    padding-bottom: var(--base-size-96, 96px) !important;
+}
+
+.pb-11 {
+    padding-bottom: var(--base-size-112, 112px) !important;
+}
+
+.pb-12 {
+    padding-bottom: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Left and Right */
+.px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.px-1 {
+    padding-left: var(--base-size-4, 4px) !important;
+    padding-right: var(--base-size-4, 4px) !important;
+}
+
+.px-2 {
+    padding-left: var(--base-size-8, 8px) !important;
+    padding-right: var(--base-size-8, 8px) !important;
+}
+
+.px-3 {
+    padding-left: var(--base-size-16, 16px) !important;
+    padding-right: var(--base-size-16, 16px) !important;
+}
+
+.px-4 {
+    padding-left: var(--base-size-24, 24px) !important;
+    padding-right: var(--base-size-24, 24px) !important;
+}
+
+.px-5 {
+    padding-left: var(--base-size-32, 32px) !important;
+    padding-right: var(--base-size-32, 32px) !important;
+}
+
+.px-6 {
+    padding-left: var(--base-size-40, 40px) !important;
+    padding-right: var(--base-size-40, 40px) !important;
+}
+
+.px-7 {
+    padding-left: var(--base-size-48, 48px) !important;
+    padding-right: var(--base-size-48, 48px) !important;
+}
+
+.px-8 {
+    padding-left: var(--base-size-64, 64px) !important;
+    padding-right: var(--base-size-64, 64px) !important;
+}
+
+.px-9 {
+    padding-left: var(--base-size-80, 80px) !important;
+    padding-right: var(--base-size-80, 80px) !important;
+}
+
+.px-10 {
+    padding-left: var(--base-size-96, 96px) !important;
+    padding-right: var(--base-size-96, 96px) !important;
+}
+
+.px-11 {
+    padding-left: var(--base-size-112, 112px) !important;
+    padding-right: var(--base-size-112, 112px) !important;
+}
+
+.px-12 {
+    padding-left: var(--base-size-128, 128px) !important;
+    padding-right: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Top and Bottom */
+.py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.py-1 {
+    padding-top: var(--base-size-4, 4px) !important;
+    padding-bottom: var(--base-size-4, 4px) !important;
+}
+
+.py-2 {
+    padding-top: var(--base-size-8, 8px) !important;
+    padding-bottom: var(--base-size-8, 8px) !important;
+}
+
+.py-3 {
+    padding-top: var(--base-size-16, 16px) !important;
+    padding-bottom: var(--base-size-16, 16px) !important;
+}
+
+.py-4 {
+    padding-top: var(--base-size-24, 24px) !important;
+    padding-bottom: var(--base-size-24, 24px) !important;
+}
+
+.py-5 {
+    padding-top: var(--base-size-32, 32px) !important;
+    padding-bottom: var(--base-size-32, 32px) !important;
+}
+
+.py-6 {
+    padding-top: var(--base-size-40, 40px) !important;
+    padding-bottom: var(--base-size-40, 40px) !important;
+}
+
+.py-7 {
+    padding-top: var(--base-size-48, 48px) !important;
+    padding-bottom: var(--base-size-48, 48px) !important;
+}
+
+.py-8 {
+    padding-top: var(--base-size-64, 64px) !important;
+    padding-bottom: var(--base-size-64, 64px) !important;
+}
+
+.py-9 {
+    padding-top: var(--base-size-80, 80px) !important;
+    padding-bottom: var(--base-size-80, 80px) !important;
+}
+
+.py-10 {
+    padding-top: var(--base-size-96, 96px) !important;
+    padding-bottom: var(--base-size-96, 96px) !important;
+}
+
+.py-11 {
+    padding-top: var(--base-size-112, 112px) !important;
+    padding-bottom: var(--base-size-112, 112px) !important;
+}
+
+.py-12 {
+    padding-top: var(--base-size-128, 128px) !important;
+    padding-bottom: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Block Start */
+.p-block-start-0 {
+    padding-block-start: 0 !important;
+}
+
+.p-block-start-1 {
+    padding-block-start: var(--base-size-4, 4px) !important;
+}
+
+.p-block-start-2 {
+    padding-block-start: var(--base-size-8, 8px) !important;
+}
+
+.p-block-start-3 {
+    padding-block-start: var(--base-size-16, 16px) !important;
+}
+
+.p-block-start-4 {
+    padding-block-start: var(--base-size-24, 24px) !important;
+}
+
+.p-block-start-5 {
+    padding-block-start: var(--base-size-32, 32px) !important;
+}
+
+.p-block-start-6 {
+    padding-block-start: var(--base-size-40, 40px) !important;
+}
+
+.p-block-start-7 {
+    padding-block-start: var(--base-size-48, 48px) !important;
+}
+
+.p-block-start-8 {
+    padding-block-start: var(--base-size-64, 64px) !important;
+}
+
+.p-block-start-9 {
+    padding-block-start: var(--base-size-80, 80px) !important;
+}
+
+.p-block-start-10 {
+    padding-block-start: var(--base-size-96, 96px) !important;
+}
+
+.p-block-start-11 {
+    padding-block-start: var(--base-size-112, 112px) !important;
+}
+
+.p-block-start-12 {
+    padding-block-start: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Block End */
+.p-block-end-0 {
+    padding-block-end: 0 !important;
+}
+
+.p-block-end-1 {
+    padding-block-end: var(--base-size-4, 4px) !important;
+}
+
+.p-block-end-2 {
+    padding-block-end: var(--base-size-8, 8px) !important;
+}
+
+.p-block-end-3 {
+    padding-block-end: var(--base-size-16, 16px) !important;
+}
+
+.p-block-end-4 {
+    padding-block-end: var(--base-size-24, 24px) !important;
+}
+
+.p-block-end-5 {
+    padding-block-end: var(--base-size-32, 32px) !important;
+}
+
+.p-block-end-6 {
+    padding-block-end: var(--base-size-40, 40px) !important;
+}
+
+.p-block-end-7 {
+    padding-block-end: var(--base-size-48, 48px) !important;
+}
+
+.p-block-end-8 {
+    padding-block-end: var(--base-size-64, 64px) !important;
+}
+
+.p-block-end-9 {
+    padding-block-end: var(--base-size-80, 80px) !important;
+}
+
+.p-block-end-10 {
+    padding-block-end: var(--base-size-96, 96px) !important;
+}
+
+.p-block-end-11 {
+    padding-block-end: var(--base-size-112, 112px) !important;
+}
+
+.p-block-end-12 {
+    padding-block-end: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Block */
+.p-block-0 {
+    padding-block: 0 !important;
+}
+
+.p-block-1 {
+    padding-block: var(--base-size-4, 4px) !important;
+}
+
+.p-block-2 {
+    padding-block: var(--base-size-8, 8px) !important;
+}
+
+.p-block-3 {
+    padding-block: var(--base-size-16, 16px) !important;
+}
+
+.p-block-4 {
+    padding-block: var(--base-size-24, 24px) !important;
+}
+
+.p-block-5 {
+    padding-block: var(--base-size-32, 32px) !important;
+}
+
+.p-block-6 {
+    padding-block: var(--base-size-40, 40px) !important;
+}
+
+.p-block-7 {
+    padding-block: var(--base-size-48, 48px) !important;
+}
+
+.p-block-8 {
+    padding-block: var(--base-size-64, 64px) !important;
+}
+
+.p-block-9 {
+    padding-block: var(--base-size-80, 80px) !important;
+}
+
+.p-block-10 {
+    padding-block: var(--base-size-96, 96px) !important;
+}
+
+.p-block-11 {
+    padding-block: var(--base-size-112, 112px) !important;
+}
+
+.p-block-12 {
+    padding-block: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Inline Start */
+.p-inline-start-0 {
+    padding-inline-start: 0 !important;
+}
+
+.p-inline-start-1 {
+    padding-inline-start: var(--base-size-4, 4px) !important;    
+}
+
+.p-inline-start-2 {
+    padding-inline-start: var(--base-size-8, 8px) !important;
+}
+
+.p-inline-start-3 {
+    padding-inline-start: var(--base-size-16, 16px) !important;
+}
+
+.p-inline-start-4 {
+    padding-inline-start: var(--base-size-24, 24px) !important;
+}
+
+.p-inline-start-5 {
+    padding-inline-start: var(--base-size-32, 32px) !important;
+}
+
+.p-inline-start-6 {
+    padding-inline-start: var(--base-size-40, 40px) !important;
+}
+
+.p-inline-start-7 {
+    padding-inline-start: var(--base-size-48, 48px) !important;
+}
+
+.p-inline-start-8 {
+    padding-inline-start: var(--base-size-64, 64px) !important;
+}
+
+.p-inline-start-9 {
+    padding-inline-start: var(--base-size-80, 80px) !important;
+}
+
+.p-inline-start-10 {
+    padding-inline-start: var(--base-size-96, 96px) !important;
+}
+
+.p-inline-start-11 {
+    padding-inline-start: var(--base-size-112, 112px) !important;
+}
+
+.p-inline-start-12 {
+    padding-inline-start: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Inline End */
+.p-inline-end-0 {
+    padding-inline-end: 0 !important;
+}
+
+.p-inline-end-1 {
+    padding-inline-end: var(--base-size-4, 4px) !important;
+}
+
+.p-inline-end-2 {
+    padding-inline-end: var(--base-size-8, 8px) !important;
+}
+
+.p-inline-end-3 {
+    padding-inline-end: var(--base-size-16, 16px) !important;
+}
+
+.p-inline-end-4 {
+    padding-inline-end: var(--base-size-24, 24px) !important;
+}
+
+.p-inline-end-5 {
+    padding-inline-end: var(--base-size-32, 32px) !important;
+}
+
+.p-inline-end-6 {
+    padding-inline-end: var(--base-size-40, 40px) !important;
+}
+
+.p-inline-end-7 {
+    padding-inline-end: var(--base-size-48, 48px) !important;
+}
+
+.p-inline-end-8 {
+    padding-inline-end: var(--base-size-64, 64px) !important;
+}
+
+.p-inline-end-9 {
+    padding-inline-end: var(--base-size-80, 80px) !important;
+}
+
+.p-inline-end-10 {
+    padding-inline-end: var(--base-size-96, 96px) !important;
+}
+
+.p-inline-end-11 {
+    padding-inline-end: var(--base-size-112, 112px) !important;
+}
+
+.p-inline-end-12 {
+    padding-inline-end: var(--base-size-128, 128px) !important;
+}
+
+/* Padding Inline */
+.p-inline-0 {
+    padding-inline: 0 !important;
+}
+
+.p-inline-1 {
+    padding-inline: var(--base-size-4, 4px) !important;
+}
+
+.p-inline-2 {
+    padding-inline: var(--base-size-8, 8px) !important;
+}
+
+.p-inline-3 {
+    padding-inline: var(--base-size-16, 16px) !important;
+}
+
+.p-inline-4 {
+    padding-inline: var(--base-size-24, 24px) !important;
+}
+
+.p-inline-5 {
+    padding-inline: var(--base-size-32, 32px) !important;
+}
+
+.p-inline-6 {
+    padding-inline: var(--base-size-40, 40px) !important;
+}
+
+.p-inline-7 {
+    padding-inline: var(--base-size-48, 48px) !important;
+}
+
+.p-inline-8 {
+    padding-inline: var(--base-size-64, 64px) !important;
+}
+
+.p-inline-9 {
+    padding-inline: var(--base-size-80, 80px) !important;
+}
+
+.p-inline-10 {
+    padding-inline: var(--base-size-96, 96px) !important;
+}
+
+.p-inline-11 {
+    padding-inline: var(--base-size-112, 112px) !important;
+}
+
+.p-inline-12 {
+    padding-inline: var(--base-size-128, 128px) !important;
+}

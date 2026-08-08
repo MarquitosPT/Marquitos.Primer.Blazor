@@ -1,0 +1,76 @@
+/* Font size variables */
+:root {
+    --base-fontSize-xs: 0.75rem;
+    --base-fontSize-sm: 0.875rem;
+    --base-fontSize-md: 1rem;
+    --base-fontSize-lg: 1.125rem;
+    --base-fontSize-xl: 1.25rem;
+    --base-fontSize-2xl: 1.5rem;
+    --base-fontSize-3xl: 1.875rem;
+    --base-fontSize-4xl: 2.25rem;
+}
+
+/* Font weight variables */
+:root {
+    --base-fontWeight-light: 300; /* Light font weight for subtle emphasis and secondary text. */
+    --base-fontWeight-regular: 400; /* Regular font weight for standard body text and general UI elements. */
+    --base-fontWeight-medium: 500; /* Medium font weight for slightly emphasized text and headings. */
+    --base-fontWeight-semibold: 600; /* Semibold font weight for headings, titles, and important UI elements. */
+    --base-fontWeight-bold: 700; /* Bold font weight for strong emphasis, titles, and call-to-action elements. */
+}
+
+/* Line height variables */
+:root {
+    --base-lineHeight-tight: 1; /* Tight line height for compact text and headings. */
+    --base-lineHeight-normal: 1.2; /* Normal line height for standard text and UI elements. */
+    --base-lineHeight-relaxed: 1.4; /* Relaxed line height for improved readability in body text. */
+    --base-lineHeight-loose: 1.6; /* Loose line height for display text and large headings. */
+    --base-lineHeight-extra-loose: 1.8; /* Extra loose line height for very large text and headings. */
+}
+
+/* Letter spacing variables */
+:root {
+    --base-letterSpacing-tight: -0.05em; /* Tight letter spacing for compact text and headings. */
+    --base-letterSpacing-normal: 0em; /* Normal letter spacing for standard text and UI elements. */
+    --base-letterSpacing-relaxed: 0.05em; /* Relaxed letter spacing for improved readability in body text. */
+    --base-letterSpacing-loose: 0.1em; /* Loose letter spacing for display text and large headings. */
+}
+
+/* Text shadow variables */
+:root {
+    --base-textShadow-none: none; /* No text shadow. */
+    --base-textShadow-small: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Small text shadow for subtle depth. */
+    --base-textShadow-medium: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Medium text shadow for moderate depth. */
+    --base-textShadow-large: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Large text shadow for pronounced depth. */
+}
+
+/* Text stroke variables */
+:root {
+    --base-textStroke-none: none; /* No text stroke. */
+    --base-textStroke-thin: 0.5px; /* Thin text stroke for subtle emphasis. */
+    --base-textStroke-medium: 1px; /* Medium text stroke for moderate emphasis. */
+    --base-textStroke-thick: 2px; /* Thick text stroke for strong emphasis. */
+}
+
+/* Text indent variables */
+:root {
+    --base-textIndent-none: 0; /* No text indentation. */
+    --base-textIndent-small: 0.5em; /* Small text indentation for paragraphs. */
+    --base-textIndent-medium: 1em; /* Medium text indentation for block quotes or nested content. */
+    --base-textIndent-large: 2em; /* Large text indentation for special formatting or emphasis. */
+}
+
+/* Text decoration thickness variables */
+:root {
+    --base-textDecoration-thickness-thin: 1px; /* Thin text decoration thickness for subtle emphasis. */
+    --base-textDecoration-thickness-medium: 2px; /* Medium text decoration thickness for moderate emphasis. */
+    --base-textDecoration-thickness-thick: 3px; /* Thick text decoration thickness for strong emphasis. */
+}
+
+/* Text decoration offset variables */
+:root {
+    --base-textDecoration-offset-none: 0; /* No text decoration offset. */
+    --base-textDecoration-offset-small: 1px; /* Small text decoration offset for subtle emphasis. */
+    --base-textDecoration-offset-medium: 2px; /* Medium text decoration offset for moderate emphasis. */
+    --base-textDecoration-offset-large: 3px; /* Large text decoration offset for strong emphasis. */
+}
