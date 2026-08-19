@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/@primer/primitives@11.10.0/dist/css/functional/size/viewport.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+@custom-media --viewportRange-landscape (orientation: landscape);@custom-media --viewportRange-narrow (max-width: calc(48rem - 0.02px));@custom-media --viewportRange-narrowLandscape ((max-width: calc(63.25rem - 0.02px)) and (max-height: calc(34rem - 0.02px)) and (orientation: landscape));@custom-media --viewportRange-portrait (orientation: portrait);@custom-media --viewportRange-regular (min-width: 48rem);@custom-media --viewportRange-wide (min-width: 87.5rem);
+/*# sourceMappingURL=/sm/3863f025fa48faea812abd376471913897e001b236cf6573b4fc0edc5d593b13.map */

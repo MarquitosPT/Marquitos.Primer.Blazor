@@ -1,18 +1,32 @@
 {
   "version": "3.0",
   "defaultProvider": "jsdelivr",
-  "libraries": [
-    {
-      "library": "@primer/css@latest",
-      "destination": "wwwroot/primer/css/"
-    },
-    {
-      "library": "@primer/brand-css@latest",
-      "destination": "wwwroot/primer/brand-css/"
-    },
-    {
-      "library": "@primer/brand-primitives@latest",
-      "destination": "wwwroot/primer/brand-primitives/"
-    }
-  ]
+    "libraries": [
+        {
+            "library": "@primer/css@latest",
+            "destination": "wwwroot/primer/css/",
+            "files": [
+                "dist/**"
+            ]
+        },
+        {
+            "library": "@primer/primitives@latest",
+            "destination": "wwwroot/primer/primitives/",
+            "files": [
+                "dist/css/**",
+                "dist/internalCss/**"
+            ]
+        },
+        {
+            "library": "@primer/brand-css@latest",
+            "destination": "wwwroot/primer/brand-css/"
+        },
+        {
+            "library": "@primer/brand-primitives@latest",
+            "destination": "wwwroot/primer/brand-primitives/",
+            "files": [
+                "lib/design-tokens/css/**"
+            ]
+        }
+    ]
 }
